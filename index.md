@@ -1,5 +1,7 @@
-Sovannara:
-==========
+---
+title: Homepage
+layout: default
+---
 
 My git hub page and the [vim-config][1] page.
 
