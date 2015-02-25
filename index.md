@@ -31,6 +31,8 @@ layout: default
  - Development in C++ of an augmented reality application in stereo-vision for teleoperating a Fanuc robot with a tracking device
 
 ### Skills
+<div class="row" markdown="1">
+ <div class="span3" markdown="1">
  - OS
    - Linux
  - Programming
@@ -45,6 +47,8 @@ layout: default
    - Kuka FRI
    - XDE-Core
    - Eigen
+ </div>
+ <div class="span5" markdown="1">
  - Tools
    - ROS
    - Orocos
@@ -59,6 +63,8 @@ layout: default
    - Kuka LWR4
    - HRP-2
    - Motion Analysis motion capture system
+ </div>
+</div>
 
 ### Education
 
@@ -67,12 +73,14 @@ layout: default
    - Humanoid robot
    - Motion analysis
    - Task function formalism
+
 #### 2007 - 2008
  - M. Sc. in computer science at Université Paris-Sud 11
    - Natural language processing
    - Speech processing
+
 #### 2004 - 2007
- - Engineer Degree in computer science at ENSIIE (École Nationale Supérieure d'Informatique pour l'Industrie et l'Entreprise)
+ - Engineer Degree in computer science at ENSIIE
    - Computer science
    - Robotics
    - Virtual Reality
