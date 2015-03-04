@@ -7,6 +7,7 @@ layout: default
 
 #### February 2012 - 2015: Engineer Post Doc at ISIR (Institut des Systèmes Intelligents et de Robotique), Paris - FRANCE
 
+ - XDE and Kuka LWR4 Technical support
  - Development and implementation in C++/Python of tools and dynamic simulations using XDE
  - Development and integration in C++ for the Kuka LWR4 platform using ROS, Orocos with Xenomai
  - Teaching Operating System for 4th year student at Polytech Paris-UPMC
@@ -90,3 +91,7 @@ layout: default
  - French (mother tongue)
  - English (fluent)
  - Japanese (beginner)
+
+### Extra
+
+ - Self-taught guitar player and DAW user
