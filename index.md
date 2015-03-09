@@ -7,9 +7,9 @@ layout: default
 
 #### February 2012 - 2015: Engineer Post Doc at ISIR (Institut des Systèmes Intelligents et de Robotique), Paris - FRANCE
 
- - XDE and Kuka LWR4 Technical support
+ - XDE and Kuka LWR4 Technical support and internal wiki management
  - Development and implementation in C++/Python of tools and dynamic simulations using XDE
- - Development and integration in C++ for the Kuka LWR4 platform using ROS, Orocos with Xenomai
+ - Development, implementation and integration in C++ for the Kuka LWR4 platform using ROS, Orocos with Xenomai
  - Teaching Operating System for 4th year student at Polytech Paris-UPMC
 
 #### November 2008 - 2011: PhD thesis at LAAS (Laboratoire d'Analyse et d'Architecture des Systèmes), Toulouse - FRANCE
