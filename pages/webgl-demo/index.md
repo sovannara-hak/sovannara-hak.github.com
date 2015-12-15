@@ -2,41 +2,14 @@
 title: Webgl Demo
 layout: default
 ---
-<script type="text/javascript">
-    var gl;
+<script type="text/javascript" src="js/demo01.js"></script>
 
-    function webGLStart() {
-        var canvas = document.getElementById("webgl-canvas");
-        try{
-            initGL(canvas);
+# WebGL Demos:
 
-            gl.clearColor(0.0, 0.0, 0.0, 1.0);
-            gl.clear(gl.COLOR_BUFFER_BIT);
-        }
-        catch(e){
-            alert(e);
-        }
-
-    }
-
-    function initGL(canvas) {
-        gl = canvas.getContext("webgl");
-        if (gl) {
-            gl.viewportWidth = canvas.width;
-            gl.viewportHeight = canvas.height;
-
-            console.log(gl);
-        }
-        else{
-            throw new Error("Your browser doesn't support WebGL");
-        }
-    }
-</script>
+This page illustrates some demos in WebGL.
 
 <div>
-<center>
-<canvas id="webgl-canvas" style="border: none;" width="500" height="500"></canvas>
-</center>
+<canvas id="webgl01-canvas" style="border: none;" width="500" height="500"></canvas>
 
 <script type="text/javascript">
     webGLStart();
