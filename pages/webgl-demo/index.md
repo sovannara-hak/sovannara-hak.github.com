@@ -12,6 +12,6 @@ This page illustrates some demos in WebGL.
 <canvas id="webgl01-canvas" style="border: none;" width="500" height="500"></canvas>
 
 <script type="text/javascript">
-    webGLStart();
+    demo01_main("webgl01-canvas");
 </script>
 </div>
