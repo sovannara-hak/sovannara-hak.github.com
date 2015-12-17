@@ -7,18 +7,50 @@ var vertexPositions = [
 	-0.75, -0.75, 0.0, 1.0
 ];
 
-function getShaderStrFromFile(fileName){
+function shaderStruct(type, shaderFileName, ready){
+    this.type = type;
+    this.shaderFileName = shaderFileName;
+    this.shader = null;
+    this.ready = ready;
+}
+
+function getShaderFromFiles(shaderList){
+    for ( i = 0; i < shaderList.length; i++){
+        getShaderFromFile(shaderList, i);
+    }
+}
+
+function getShaderFromFile(shaderList, shaderIndex){
     var request = new XMLHttpRequest();
 
-    request.onreadystatechange = function (){
+    request.onreadystatechange = function(){
         if (request.readyState == 4 && request.status != 404){
-            return request.responseText;
+            initShader(shaderList, shaderIndex, request.responseText);
         }
     }
 
-    request.open('GET', fileName, false);
+    request.open('GET', shaderList[shaderIndex].shaderFileName, true);
     request.send();
-    return request.onreadystatechange();
+}
+
+function initShader(shaderList, shaderIndex, strShaderSource){
+    //shader compilation
+    shaderList[shaderIndex].shader = createShader(shaderList[shaderIndex].type, strShaderSource);
+    shaderList[shaderIndex].ready = true;
+
+    //check if all shaders are compiled
+    for ( i = 0; i < shaderList.length; i++ ){
+        if ( shaderList[i].ready == false ){
+            return;
+        }
+    }
+    //All shaders are ready, create the program
+    createProgram(shaderList);
+
+    //set the vertices data
+    initVertexBuffer();
+
+    draw();
 }
 
 function webGLStart(canvas_name) {
@@ -30,7 +62,6 @@ function webGLStart(canvas_name) {
     catch(e){
         alert(e);
     }
-
 }
 
 function initGL(canvas) {
@@ -47,30 +78,15 @@ function initGL(canvas) {
     }
 }
 
-function initProgram(){
-    //create shader
-    var strVertexShader = getShaderStrFromFile("shader/demo01-triangle.vert");
-    var strFragmentShader = getShaderStrFromFile("shader/demo01-triangle.frag");
+function startGL(){
+    //create shaders
+    var vertexShaderStruct = new shaderStruct(gl.VERTEX_SHADER, "shader/demo01-triangle.vert", false);
+    var fragmentShaderStruct = new shaderStruct(gl.FRAGMENT_SHADER, "shader/demo01-triangle.frag", false);
 
-    var vertexShader = createShader(gl.VERTEX_SHADER, strVertexShader);
-    var fragmentShader = createShader(gl.FRAGMENT_SHADER, strFragmentShader);
+    var shaderList = [vertexShaderStruct, fragmentShaderStruct];
 
-    //create the program
-    theProgram = gl.createProgram();
-
-    gl.attachShader(theProgram, vertexShader)
-    gl.attachShader(theProgram, fragmentShader)
-
-    gl.linkProgram(theProgram);
-
-    //check link status
-    if (!gl.getProgramParameter(theProgram, gl.LINK_STATUS)){
-        alert("Could not initialise shaders");
-    }
-    //delete shader
-    gl.deleteShader(vertexShader);
-    gl.deleteShader(fragmentShader);
-
+    //compile shaders from files
+    getShaderFromFiles(shaderList);
 }
 
 function createShader(shaderType, strShaderFile){
@@ -91,7 +107,7 @@ function createProgram(shaderList){
     theProgram = gl.createProgram();
 
     for(i = 0; i < shaderList.length; i++){
-        gl.attachShader(theProgram, shaderList[i])
+        gl.attachShader(theProgram, shaderList[i].shader)
     }
 
     gl.linkProgram(theProgram);
@@ -100,6 +116,11 @@ function createProgram(shaderList){
     if (!gl.getProgramParameter(theProgram, gl.LINK_STATUS)){
         alert("Could not initialise shaders");
     }
+    
+    //delete shader
+    for ( i = 0; i < shaderList.length; i++ ){
+        gl.deleteShader(shaderList[i].shader);
+    }
 }
 
 function initVertexBuffer(){
@@ -107,7 +128,6 @@ function initVertexBuffer(){
 
     gl.bindBuffer(gl.ARRAY_BUFFER, positionsBufferObject);
     gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(vertexPositions), gl.STATIC_DRAW);
-
 }
 
 function draw(){
@@ -134,10 +154,5 @@ function demo01_main(canvas_name){
     webGLStart(canvas_name);
 
     //create the shader program
-    initProgram();
-
-    //set the vertices data
-    initVertexBuffer();
-
-    draw();
+    startGL();
 }
