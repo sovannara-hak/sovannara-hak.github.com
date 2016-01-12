@@ -2,6 +2,7 @@
 title: Webgl Demo
 layout: default
 ---
+<script type="text/javascript" src="js/common.js"></script>
 <script type="text/javascript" src="js/demo01.js"></script>
 
 # WebGL Demos:
@@ -15,3 +16,4 @@ This page illustrates some demos in WebGL.
     demo01_main("webgl01-canvas");
 </script>
 </div>
+
