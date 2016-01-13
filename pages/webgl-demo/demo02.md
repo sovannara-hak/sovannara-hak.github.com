@@ -6,7 +6,7 @@ layout: default
 <script type="text/javascript" src="js/common.js"></script>
 <script type="text/javascript" src="js/demo02.js"></script>
 
-# WebGL Demos 02:
+### WebGL Demos 02:
 
 <div>
 <canvas id="webgl02-canvas" style="border: none;" width="500" height="500"></canvas>
