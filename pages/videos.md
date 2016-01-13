@@ -9,7 +9,7 @@ generation, recognition and editing of anthropomorphic motion using a unified fr
 
 <div class="row" markdown="1">
  <div class="span6" markdown="1">
-<iframe width="420" height="315" src="http://www.youtube.com/embed/sDpeO4PntR8" frameborder="0" allowfullscreen></iframe> 
+<iframe width="420" height="315" src="https://www.youtube.com/embed/sDpeO4PntR8" frameborder="0" allowfullscreen></iframe> 
  </div>
 </div>
 <br>
@@ -24,10 +24,10 @@ that we were able to disambiguate using our task recognition method.
 
 <div class="row" markdown="1">
  <div class="span6" markdown="1">
- <iframe width="420" height="315" src="http://www.youtube.com/embed/9GqdhqHPKBM" frameborder="0" allowfullscreen></iframe>
+ <iframe width="420" height="315" src="https://www.youtube.com/embed/9GqdhqHPKBM" frameborder="0" allowfullscreen></iframe>
  </div>
  <div class="span6" markdown="1">
- <iframe width="420" height="315" src="http://www.youtube.com/embed/mCoNfoKL1Nk" frameborder="0" allowfullscreen></iframe>
+ <iframe width="420" height="315" src="https://www.youtube.com/embed/mCoNfoKL1Nk" frameborder="0" allowfullscreen></iframe>
  </div>
 </div>
 
@@ -35,10 +35,10 @@ that we were able to disambiguate using our task recognition method.
 
 <div class="row" markdown="1">
  <div class="span6" markdown="1">
- <iframe width="420" height="315" src="http://www.youtube.com/embed/aXdFFERCqDA" frameborder="0" allowfullscreen></iframe>
+ <iframe width="420" height="315" src="https://www.youtube.com/embed/aXdFFERCqDA" frameborder="0" allowfullscreen></iframe>
  </div>
  <div class="span6" markdown="1">
- <iframe width="420" height="315" src="http://www.youtube.com/embed/EVlvKiZ76Do" frameborder="0" allowfullscreen></iframe>
+ <iframe width="420" height="315" src="https://www.youtube.com/embed/EVlvKiZ76Do" frameborder="0" allowfullscreen></iframe>
  </div>
 </div>
 
@@ -46,10 +46,10 @@ that we were able to disambiguate using our task recognition method.
 
 <div class="row" markdown="1">
  <div class="span6" markdown="1">
- <iframe width="420" height="315" src="http://www.youtube.com/embed/1l6HxmJ--k0" frameborder="0" allowfullscreen></iframe>
+ <iframe width="420" height="315" src="https://www.youtube.com/embed/1l6HxmJ--k0" frameborder="0" allowfullscreen></iframe>
  </div>
  <div class="span6" markdown="1">
- <iframe width="420" height="315" src="http://www.youtube.com/embed/1QFeN_xV3M0" frameborder="0" allowfullscreen></iframe>
+ <iframe width="420" height="315" src="https://www.youtube.com/embed/1QFeN_xV3M0" frameborder="0" allowfullscreen></iframe>
  </div>
 </div>
 <br>
@@ -66,10 +66,10 @@ the chest and the head.
 
 <div class="row" markdown="1">
  <div class="span6" markdown="1">
- <iframe width="420" height="315" src="http://www.youtube.com/embed/lt2AMhUF5u8" frameborder="0" allowfullscreen></iframe>
+ <iframe width="420" height="315" src="https://www.youtube.com/embed/lt2AMhUF5u8" frameborder="0" allowfullscreen></iframe>
  </div>
  <div class="span6" markdown="1">
- <iframe width="420" height="315" src="http://www.youtube.com/embed/KOfhW6R8eT8" frameborder="0" allowfullscreen></iframe>
+ <iframe width="420" height="315" src="https://www.youtube.com/embed/KOfhW6R8eT8" frameborder="0" allowfullscreen></iframe>
  </div>
 </div>
 
