@@ -22,14 +22,21 @@ function initVertexBuffer(){
 }
 
 function startGL(){
-    //create shaders
-    var vertexShaderStruct = new shaderStruct(gl.VERTEX_SHADER, "shader/demo02-triangle.vert", false);
-    var fragmentShaderStruct = new shaderStruct(gl.FRAGMENT_SHADER, "shader/demo02-triangle.frag", false);
+    //create the promise of getting shaders contents
+    var vertexShaderPromise = readShaderSource("shader/demo02-triangle.vert", gl.VERTEX_SHADER);
+    var fragmentShaderPromise = readShaderSource("shader/demo02-triangle.frag", gl.FRAGMENT_SHADER);
 
-    var shaderList = [vertexShaderStruct, fragmentShaderStruct];
 
-    //compile shaders from files
-    getShaderFromFiles(shaderList, draw);
+    //compile shaders when promises are settled
+    vertexShaderPromise.then(compileShader);
+    fragmentShaderPromise.then(compileShader);
+
+    //When all shaders are compiled,
+    //we push a program containing those shaders into the list
+    //and then we call the draw function
+    Promise.all([vertexShaderPromise, fragmentShaderPromise])
+        .then(createProgram)
+        .then(draw);
 }
 
 function draw(){
@@ -39,13 +46,14 @@ function draw(){
         gl.clearColor(0.0, 0.0, 0.0, 1.0);
         gl.clear(gl.COLOR_BUFFER_BIT);
 
-        gl.useProgram(theProgram);
+        //Only one program, so we use the first one in the list
+        gl.useProgram(programList[0]);
 
         //find the location of the first attribute of the vertex shader
-        var positionLocation = gl.getAttribLocation(theProgram, "position");
+        var positionLocation = gl.getAttribLocation(programList[0], "position");
 
         //find the location of the color attribute
-        var colorLocation = gl.getAttribLocation(theProgram, "color");
+        var colorLocation = gl.getAttribLocation(programList[0], "color");
 
         gl.bindBuffer(gl.ARRAY_BUFFER, positionsBufferObject);
         //enable the first attribute of the vertex shader

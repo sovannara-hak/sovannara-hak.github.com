@@ -14,13 +14,18 @@ function initVertexBuffer(){
 
 function startGL(){
     //create shaders
-    var vertexShaderStruct = new shaderStruct(gl.VERTEX_SHADER, "shader/demo01-triangle.vert", false);
-    var fragmentShaderStruct = new shaderStruct(gl.FRAGMENT_SHADER, "shader/demo01-triangle.frag", false);
+    //create the promise of getting shaders contents
+    var vertexShaderPromise = readShaderSource("shader/demo01-triangle.vert", gl.VERTEX_SHADER);
+    var fragmentShaderPromise = readShaderSource("shader/demo01-triangle.frag", gl.FRAGMENT_SHADER);
 
-    var shaderList = [vertexShaderStruct, fragmentShaderStruct];
 
-    //compile shaders from files
-    getShaderFromFiles(shaderList, draw);
+    //compile shaders when promises are settled
+    vertexShaderPromise.then(compileShader);
+    fragmentShaderPromise.then(compileShader);
+
+    Promise.all([vertexShaderPromise, fragmentShaderPromise])
+        .then(createProgram)
+        .then(draw);
 }
 
 function draw(){
@@ -30,10 +35,10 @@ function draw(){
         gl.clearColor(0.0, 0.0, 0.0, 1.0);
         gl.clear(gl.COLOR_BUFFER_BIT);
 
-        gl.useProgram(theProgram);
+        gl.useProgram(programList[0]);
 
         //find the location of the first attribute of the vertex shader
-        var positionLocation = gl.getAttribLocation(theProgram, "position");
+        var positionLocation = gl.getAttribLocation(programList[0], "position");
 
         gl.bindBuffer(gl.ARRAY_BUFFER, positionsBufferObject);
         //enable the first attribute of the vertex shader

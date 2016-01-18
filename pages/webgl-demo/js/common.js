@@ -1,5 +1,5 @@
 var gl;
-var theProgram;
+var programList = [];
 
 function webGLStart(canvas_name) {
     //get canvas
@@ -26,80 +26,69 @@ function initGL(canvas) {
     }
 }
 
-function shaderStruct(type, shaderFileName, ready){
-    this.type = type;
-    this.shaderFileName = shaderFileName;
+function ShaderObject (){
+    this.type = null;
+    this.strSource = null;
     this.shader = null;
-    this.ready = ready;
 }
 
-function getShaderFromFiles(shaderList, drawFunction){
-    for ( i = 0; i < shaderList.length; i++){
-        getShaderFromFile(shaderList, i, drawFunction);
-    }
-}
+function readShaderSource(filepath, shaderType){
+    return new Promise(function(compileShaderCallback, rejectCallback){
+        var shader = new ShaderObject();
+        shader.type = shaderType;
 
-function getShaderFromFile(shaderList, shaderIndex, drawFunction){
-    var request = new XMLHttpRequest();
+        var request = new XMLHttpRequest();
 
-    request.onreadystatechange = function(){
-        if (request.readyState == 4 && request.status != 404){
-            initShader(shaderList, shaderIndex, request.responseText, drawFunction);
+        request.onreadystatechange = function(){
+            //When reading finished use content of the shader
+            //-->compile
+            if(request.readyState == 4){
+                shader.strSource = request.responseText;
+                compileShaderCallback(shader);
+            }
         }
-    }
 
-    request.open('GET', shaderList[shaderIndex].shaderFileName, true);
-    request.send();
-}
-
-function initShader(shaderList, shaderIndex, strShaderSource, drawFunction){
-    //shader compilation
-    shaderList[shaderIndex].shader = createShader(shaderList[shaderIndex].type, strShaderSource);
-    shaderList[shaderIndex].ready = true;
-
-    //check if all shaders are compiled
-    for ( i = 0; i < shaderList.length; i++ ){
-        if ( shaderList[i].ready == false ){
-            return;
+        request.onerror = function(){
+            rejectCallback(Error("Error while reading shader "+filepath));
         }
-    }
-    //All shaders are ready, create the program
-    createProgram(shaderList);
 
-    drawFunction();
+        request.open('GET', filepath, true);
+        request.send();
+    });
 }
 
-function createShader(shaderType, strShaderFile){
-    var shader = gl.createShader(shaderType);
-    gl.shaderSource(shader, strShaderFile);
+/*
+ * return a compiled shader
+ * params shader: a structure with .type is the shader type
+ *                and .strSource is the content of the shader
+ */
+function compileShader(shaderStruct){
+    shaderStruct.shader = gl.createShader(shaderStruct.type);
+    gl.shaderSource(shaderStruct.shader, shaderStruct.strSource);
 
-    gl.compileShader(shader);
+    gl.compileShader(shaderStruct.shader);
 
-    if (!gl.getShaderParameter(shader, gl.COMPILE_STATUS)){
-        alert(gl.getShaderInfoLog(shader));
-        return null;
+    if (!gl.getShaderParameter(shaderStruct.shader, gl.COMPILE_STATUS)){
+        alert(gl.getShaderInfoLog(shaderStruct.shader));
     }
-
-    return shader;
 }
 
 function createProgram(shaderList){
-    theProgram = gl.createProgram();
+    var currentProgramIndex = programList.push(gl.createProgram());
+    shaderList.forEach(function (shader){
+        gl.attachShader(programList[currentProgramIndex-1], shader.shader);
+    });
 
-    for(i = 0; i < shaderList.length; i++){
-        gl.attachShader(theProgram, shaderList[i].shader)
-    }
-
-    gl.linkProgram(theProgram);
+    gl.linkProgram(programList[currentProgramIndex-1]);
 
     //check link status
-    if (!gl.getProgramParameter(theProgram, gl.LINK_STATUS)){
+    if (!gl.getProgramParameter(programList[currentProgramIndex-1], gl.LINK_STATUS)){
         alert("Could not initialise shaders");
     }
     
     //delete shader
-    for ( i = 0; i < shaderList.length; i++ ){
-        gl.deleteShader(shaderList[i].shader);
-    }
+    shaderList.forEach(function (shader){
+        gl.deleteShader(shader.shader);
+    });
 }
 
