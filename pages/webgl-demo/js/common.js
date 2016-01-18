@@ -43,13 +43,14 @@ function readShaderSource(filepath, shaderType){
             //When reading finished use content of the shader
             //-->compile
             if(request.readyState == 4){
-                shader.strSource = request.responseText;
-                compileShaderCallback(shader);
+                if(request.status == 200){
+                    shader.strSource = request.responseText;
+                    compileShaderCallback(shader);
+                }
+                else{
+                    rejectCallback(Error("cannot read shader "+filepath));
+                }
             }
-        }
-
-        request.onerror = function(){
-            rejectCallback(Error("Error while reading shader "+filepath));
         }
 
         request.open('GET', filepath, true);
