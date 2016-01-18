@@ -17,3 +17,4 @@ layout: default
 </div>
 
 <a href="index.html">Previous demo</a>
+<a href="demo03.html">Next demo</a>
