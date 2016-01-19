@@ -12,15 +12,15 @@ The motions are generated from several human motion capture data focused on the 
 the chest and the head.
 
 <div class="row" markdown="1">
- <div class="span6" markdown="1">
+ <div class="col-md-6" markdown="1">
  <iframe width="420" height="315" src="https://www.youtube.com/embed/lt2AMhUF5u8" frameborder="0" allowfullscreen></iframe>
  </div>
- <div class="span6" markdown="1">
+ <div class="col-md-6" markdown="1">
  <iframe width="420" height="315" src="https://www.youtube.com/embed/KOfhW6R8eT8" frameborder="0" allowfullscreen></iframe>
  </div>
 </div>
 
-<script src="js/fluidvids.js"></script>
+<script src="/js/fluidvids.min.js"></script>
 <script>
 fluidvids.init({
   selector: ['iframe'],

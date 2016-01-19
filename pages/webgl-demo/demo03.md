@@ -9,6 +9,9 @@ layout: default
 
 ### WebGL Demos 03:
 
+#### Rendering: 
+
+<p>
 <div>
 <canvas id="webgl03-canvas" style="border: none;" width="500" height="500"></canvas>
 
@@ -16,5 +19,12 @@ layout: default
     demo03_main("webgl03-canvas");
 </script>
 </div>
+</p>
 
-<a href="demo02.html">Previous demo</a>
+<div class="row">
+  <div class="col-md-5">
+    <a href="demo02.html">Previous demo</a>
+  </div>
+  <div class="col-md-5">
+  </div>
+</div>

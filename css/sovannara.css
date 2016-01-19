@@ -1,7 +1,12 @@
 /* Overrive some defaults */
 
 body {
+  padding-top: 70px;
+  padding-bottom: 30px;
 }
-.container {
-    width: 900px;
+
+.theme-dropdown .dropdown-menu {
+  position: static;
+  display: block;
+  margin-bottom: 20px;
 }

@@ -33,7 +33,7 @@ layout: default
 
 ### Skills
 <div class="row" markdown="1">
- <div class="span3" markdown="1">
+ <div class="col-md-4" markdown="1">
  - OS
    - Linux
  - Programming
@@ -49,7 +49,7 @@ layout: default
    - XDE-Core
    - Eigen
  </div>
- <div class="span5" markdown="1">
+ <div class="col-md-4" markdown="1">
  - Tools
    - ROS
    - Orocos

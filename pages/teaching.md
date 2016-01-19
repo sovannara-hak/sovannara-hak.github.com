@@ -10,7 +10,7 @@ layout: default
 ## Un probleme avec le future?
 
 <div class="row" markdown="1">
- <div class="span8" markdown="1">
+ <div class="col-md-8" markdown="1">
 Tapez
 
     touch -t `date +%y%m%d%H%M -d -2minutes` `'ls' -l|grep "2014"|awk '{print $9}'| tr '\n' ' '`
@@ -20,7 +20,7 @@ Tapez
 ### Cours: 
 
 <div class="row" markdown="1">
- <div class="span6" markdown="1">
+ <div class="col-md-6" markdown="1">
 #### Cours 1: OS, Compilation 
  - [Transparents](/r8isy/cours/c1/cours1_progsys-slides.pdf)
 
@@ -36,7 +36,7 @@ Tapez
  - [Transparents](/r8isy/cours/c4/cours4_progsys-slides.pdf) 
 
  </div>
- <div class="span6" markdown="1">
+ <div class="col-md-6" markdown="1">
 #### Cours5: Les tubes
  - [Transparents](/r8isy/cours/c5/cours5_progsys-slides.pdf) 
 
@@ -52,7 +52,7 @@ Tapez
 ### TPS:
 
 <div class="row" markdown="1">
- <div class="span6" markdown="1">
+ <div class="col-md-6" markdown="1">
 #### TP1
  - [Sujet](/r8isy/tps/tp1/sujet1.pdf) 
  - Exercice 2 
@@ -72,7 +72,7 @@ Tapez
    - [Exercice 3](/r8isy/tps/tp3/exercice3.tar.gz)
 
  </div>
- <div class="span6" markdown="1">
+ <div class="col-md-6" markdown="1">
 
 #### TP4
  - [Sujet](/r8isy/tps/tp4/sujet4.pdf) 

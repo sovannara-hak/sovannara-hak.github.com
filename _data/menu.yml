@@ -8,7 +8,7 @@
   href: "/pages/webgl-demo/index.html"
   subcategories:
     - subtitle: "Demo 01"
-      subhref: "/pages/webgl-demo/index.html"
+      subhref: "/pages/webgl-demo/demo01.html"
     - subtitle: "Demo 02"
       subhref: "/pages/webgl-demo/demo02.html"
     - subtitle: "Demo 03"

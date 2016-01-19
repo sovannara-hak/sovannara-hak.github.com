@@ -8,7 +8,7 @@ This is the video published at the ICRA 2012 video session. It presents the rese
 generation, recognition and editing of anthropomorphic motion using a unified framework: the stack of tasks.
 
 <div class="row" markdown="1">
- <div class="span6" markdown="1">
+ <div class="col-md-6" markdown="1">
 <iframe width="420" height="315" src="https://www.youtube.com/embed/sDpeO4PntR8" frameborder="0" allowfullscreen></iframe> 
  </div>
 </div>
@@ -23,10 +23,10 @@ that we were able to disambiguate using our task recognition method.
 #### Right hand only task / Both hands tasks
 
 <div class="row" markdown="1">
- <div class="span6" markdown="1">
+ <div class="col-md-6" markdown="1">
  <iframe width="420" height="315" src="https://www.youtube.com/embed/9GqdhqHPKBM" frameborder="0" allowfullscreen></iframe>
  </div>
- <div class="span6" markdown="1">
+ <div class="col-md-6" markdown="1">
  <iframe width="420" height="315" src="https://www.youtube.com/embed/mCoNfoKL1Nk" frameborder="0" allowfullscreen></iframe>
  </div>
 </div>
@@ -34,10 +34,10 @@ that we were able to disambiguate using our task recognition method.
 #### Gaze task / Grab task
 
 <div class="row" markdown="1">
- <div class="span6" markdown="1">
+ <div class="col-md-6" markdown="1">
  <iframe width="420" height="315" src="https://www.youtube.com/embed/aXdFFERCqDA" frameborder="0" allowfullscreen></iframe>
  </div>
- <div class="span6" markdown="1">
+ <div class="col-md-6" markdown="1">
  <iframe width="420" height="315" src="https://www.youtube.com/embed/EVlvKiZ76Do" frameborder="0" allowfullscreen></iframe>
  </div>
 </div>
@@ -45,10 +45,10 @@ that we were able to disambiguate using our task recognition method.
 #### Grab task / Screw task
 
 <div class="row" markdown="1">
- <div class="span6" markdown="1">
+ <div class="col-md-6" markdown="1">
  <iframe width="420" height="315" src="https://www.youtube.com/embed/1l6HxmJ--k0" frameborder="0" allowfullscreen></iframe>
  </div>
- <div class="span6" markdown="1">
+ <div class="col-md-6" markdown="1">
  <iframe width="420" height="315" src="https://www.youtube.com/embed/1QFeN_xV3M0" frameborder="0" allowfullscreen></iframe>
  </div>
 </div>
@@ -65,15 +65,15 @@ The motions are generated from several human motion capture data focused on the 
 the chest and the head.
 
 <div class="row" markdown="1">
- <div class="span6" markdown="1">
+ <div class="col-md-6" markdown="1">
  <iframe width="420" height="315" src="https://www.youtube.com/embed/lt2AMhUF5u8" frameborder="0" allowfullscreen></iframe>
  </div>
- <div class="span6" markdown="1">
+ <div class="col-md-6" markdown="1">
  <iframe width="420" height="315" src="https://www.youtube.com/embed/KOfhW6R8eT8" frameborder="0" allowfullscreen></iframe>
  </div>
 </div>
 
-<script src="js/fluidvids.js"></script>
+<script src="/js/fluidvids.min.js"></script>
 <script>
 fluidvids.init({
   selector: ['iframe'],
