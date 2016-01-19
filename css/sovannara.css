@@ -1,0 +1,7 @@
+/* Overrive some defaults */
+
+body {
+}
+.container {
+    width: 900px;
+}
