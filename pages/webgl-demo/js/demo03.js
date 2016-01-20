@@ -1,9 +1,4 @@
 var positionsBufferObject;
-var vertexPositions = [
-    0.75, 0.75, 0.0, 1.0,
-	0.75, -0.75, 0.0, 1.0,
-	-0.75, -0.75, 0.0, 1.0
-];
 
 var vertexData = [
     0.0, 0.5, 0.0, 1.0,
@@ -11,13 +6,20 @@ var vertexData = [
     -0.5, -0.366, 0.0, 1.0,
     1.0, 0.0, 0.0, 1.0,
     0.0, 1.0, 0.0, 1.0,
-    0.0, 0.0, 1.0, 1.0
+    0.0, 0.0, 1.0, 1.0,
+    0.0, 1.0, 0.0, 1.0,
+    0.0, 0.0, 1.0, 1.0,
+    1.0, 0.0, 0.0, 1.0
 ];
 
 var vertexPositionAttribute;
 var vertexColorAttribute;
+var vertexColor2Attribute;
 var pMatrixUniform;
 var mvMatrixUniform;
+var fragLoopDurationUniform;
+var timeUniform;
+var fragLoopDuration = 2.0;
 
 function initShaderAttrib(){
     //find the location of the first attribute of the vertex shader
@@ -26,12 +28,19 @@ function initShaderAttrib(){
     //find the location of the color attribute
     vertexColorAttribute = gl.getAttribLocation(programList[0], "color");
 
+    //find the location of the color attribute
+    vertexColor2Attribute = gl.getAttribLocation(programList[0], "color2");
+
     //init uniforms
     //We must use program to get uniforms location
     gl.useProgram(programList[0]);
 
     pMatrixUniform = gl.getUniformLocation(programList[0], "uPMatrix");
     mvMatrixUniform = gl.getUniformLocation(programList[0], "uMVMatrix");
+    fragLoopDurationUniform = gl.getUniformLocation(programList[0], "uFragLoopDuration");
+    fragTimeUniform = gl.getUniformLocation(programList[0], "uFragTime");
+
+    gl.uniform1f(fragLoopDurationUniform, fragLoopDuration);
 }
 
 function initVertexBuffer(){
@@ -118,6 +127,8 @@ function draw(now){
     mat4.identity(mvMatrix);
 
     setMatrixUniforms();
+    //update the current time for the fragment shader
+    gl.uniform1f(fragTimeUniform, now);
 
     //Only one program, so we use the first one in the list
     gl.useProgram(programList[0]);
@@ -128,12 +139,15 @@ function draw(now){
 
     //enable the color attribute
     gl.enableVertexAttribArray(vertexColorAttribute);
+    gl.enableVertexAttribArray(vertexColor2Attribute);
 
-    //index, number of values, type, false, 0 space between values, offset
+    //index, number of values per vertex, type, false, 0 space between values, bytes offset
     //vertexData: [vertex1_pos, vertex2_pos, vertex3_pos, 
     gl.vertexAttribPointer(vertexPositionAttribute, 4, gl.FLOAT, false, 0, 0);
-    //             vertex1_color, vertex2_color, vertex3_color]
+    //             vertex1_color, vertex2_color, vertex3_color, 
     gl.vertexAttribPointer(vertexColorAttribute, 4, gl.FLOAT, false, 0, 48);
+    //             vertex1_color2, vertex2_color2, vertex3_color2]
+    gl.vertexAttribPointer(vertexColor2Attribute, 4, gl.FLOAT, false, 0, 96);
 
     //Draw a rotating triangle
     mvPushMatrix();
