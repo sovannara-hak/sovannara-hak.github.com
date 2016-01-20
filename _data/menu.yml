@@ -2,10 +2,17 @@
   href: "/"
 
 - title: "Videos"
-  href: "/pages/videos.html"
+  href: "#"
+  subcategories:
+    - subtitle: "ICRA 2012"
+      subhref: "/pages/icra2012.html"
+    - subtitle: "Humanoids 2010"
+      subhref: "/pages/humanoids2010.html"
+    - subtitle: "Active Waiting"
+      subhref: "/pages/activeWaiting.html"
 
 - title: "WebGL Demos"
-  href: "/pages/webgl-demo/index.html"
+  href: "#"
   subcategories:
     - subtitle: "Demo 01"
       subhref: "/pages/webgl-demo/demo01.html"
