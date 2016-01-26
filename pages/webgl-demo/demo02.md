@@ -8,6 +8,8 @@ layout: default
 
 ### WebGL Demos 02:
 
+Simple use of shaders to draw a simple shape with colors computed in fragment shader.
+
 #### Rendering: 
 
 <p>

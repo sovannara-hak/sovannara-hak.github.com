@@ -7,10 +7,11 @@ layout: default
 
 ### WebGL Demos 01:
 
-This page illustrates some demos in WebGL.
-Simple use of shader to draw a simple shape.
+Those pages illustrate some mini-tests I wrote in order to learn WebGL.
 
 #### Shaders:
+
+Simple use of shaders to draw a simple shape.
 
 <p>
 <div class="row">

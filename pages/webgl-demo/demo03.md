@@ -9,7 +9,7 @@ layout: default
 
 ### WebGL Demos 03:
 
-Animation test and computation of colors in the fragment shader.
+Testing animation and computation of colors in the fragment shader.
 
 #### Shaders:
 
