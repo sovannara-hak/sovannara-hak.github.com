@@ -39,8 +39,9 @@ layout: default
  - Programming
    - C++
    - Python
-   - Bash
    - Kuka Robot Language
+   - Javascript
+   - Bash
    - Perl
  - Libraries
    - Boost
