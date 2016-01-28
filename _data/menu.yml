@@ -4,6 +4,8 @@
 - title: "Videos"
   href: "#"
   subcategories:
+    - subtitle: "Dance with HRP-2"
+      subhref: "http://projects.laas.fr/gepetto/index.php/Demonstrations/Novela"
     - subtitle: "ICRA 2012"
       subhref: "/pages/icra2012.html"
     - subtitle: "Humanoids 2010"
