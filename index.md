@@ -5,6 +5,21 @@ layout: default
 
 ### Experience
 
+#### January 2017 - May 2017: Software engineer at Solystic for Alten, Bagneux - FRANCE
+
+ - Development in Python of a log analyser to track performance of a mailpiece sorting assisting system
+ - Linux port of the mailpiece matching component of the sorting assisting system
+ - Development in C++ for the optimisation of the process performance of the mailpiece matching component
+ - Development in C++ of a service wrapping an image signature computation library
+ - Development in Go of a simulator for testing the mailpiece matching component
+
+#### March 2016 - December 2016: Robotics engineer at Solystic for Alten, Bagneux - FRANCE
+
+ - Development and implementation in C++/Python of the communication protocol for a motor card controller emulator
+ - Setting up dynamic simulations of the autonomous shuttles Soly with 3DS Max for testing and prospecting purposes
+ - Development of a companion app in C# with Unity to assist delivery drivers in the preparation of the round
+ - Development in C++ of an emulator of the QR code reader module of the autonomous shuttle
+
 #### February 2012 - 2015: Engineer Post Doc at ISIR (Institut des Systèmes Intelligents et de Robotique), Paris - FRANCE
 
  - XDE and Kuka LWR4 Technical support and internal wiki management
@@ -36,11 +51,13 @@ layout: default
  <div class="col-md-4" markdown="1">
  - OS
    - Linux
+   - Windows
  - Programming
    - C++
    - Python
-   - Kuka Robot Language
    - Javascript
+   - Go
+   - Kuka Robot Language
    - Bash
    - Perl
  - Libraries
@@ -49,15 +66,17 @@ layout: default
    - Kuka FRI
    - XDE-Core
    - Eigen
+   - Xerces
  </div>
  <div class="col-md-4" markdown="1">
  - Tools
    - ROS
    - Orocos
    - cmake
-   - git
+   - git/svn
    - gnuplot
  - Software
+   - 3DS Max (modeling and rendering)
    - XDE (dynamic simulator)
    - OpenHRP (simulation platform)
    - Evart/Cortex (motion capture)
