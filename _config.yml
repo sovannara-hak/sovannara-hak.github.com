@@ -8,4 +8,4 @@ safe: true
 
 encoding: utf-8
 
-highlighter: pygments
+highlighter: rouge
