@@ -1,0 +1,18 @@
+{% include header.html %}
+
+<link rel="stylesheet" href="/css/pygments.css">
+<link rel="stylesheet" href="/css/sovannara.css">
+<div class="container">
+
+<section class="post--content">
+  <h2 class="post--date">{{ page.date | date_to_long_string }}</h2>
+
+  <h2>{{ page.title }}</h2>
+  <h3>{{ page.place }} - {{page.city}}, {{page.country}}</h3>
+
+  {{ content }}
+</section>
+
+</div>
+{{ site.tags }}
+{% include footer.html %}
