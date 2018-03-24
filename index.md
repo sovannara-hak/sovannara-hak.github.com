@@ -5,6 +5,12 @@ layout: default
 
 ### Experience
 
+#### Since July 2017 : Software engineer at Idemia (Ex-Morpho) for Alten, Osny - FRANCE
+
+ - Development in C for contactless fingerprints capture devices
+ - Development in C for face anti-spoofing component
+ - Development of a demo application on Android for the face anti-spoofing component
+
 #### January 2017 - May 2017: Software engineer at Solystic for Alten, Bagneux - FRANCE
 
  - Development in Python of a log analyser to track performance of a mailpiece sorting assisting system
@@ -53,6 +59,7 @@ layout: default
    - Linux
    - Windows
  - Programming
+   - C
    - C++
    - Python
    - Javascript
@@ -70,12 +77,15 @@ layout: default
  </div>
  <div class="col-md-4" markdown="1">
  - Tools
+   - Hudson
    - ROS
    - Orocos
    - cmake
    - git/svn
    - gnuplot
  - Software
+   - Android Studio
+   - Visual Studio
    - 3DS Max (modeling and rendering)
    - XDE (dynamic simulator)
    - OpenHRP (simulation platform)
