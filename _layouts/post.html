@@ -5,7 +5,11 @@
 <div class="container">
 
 <section class="post--content">
+{% if page.category == "concert" %}  
   <h2 class="post--date">{{ page.date | date_to_long_string }}</h2>
+{% else if page.category == "festival" %}  
+  <h2 class="post--date">{{ page.startdate | date_to_long_string }} - {{ page.enddate | date_to_long_string }}</h2>
+{% endif %}
 
   <h2>{{ page.title }}</h2>
   <h3>{{ page.place }} - {{page.city}}, {{page.country}}</h3>

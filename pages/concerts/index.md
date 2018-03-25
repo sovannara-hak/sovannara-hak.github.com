@@ -27,6 +27,22 @@ permalink: /concerts/
 </ul>
 Total concerts: {{nbConcerts}}
 
+### Festivals:
+<ul>
+{% assign nbFestivals = 0 %}
+{% for post in site.posts %}
+  {% if post.category == "festival" %}
+    {% assign nbFestivals = nbFestivals | plus: 1 %}
+    <li>
+      <a href="{{ post.url }}">
+       {{ post.startdate | date_to_string }} - {{ post.enddate | date_to_string }} : {{ post.title }}
+      </a>
+    </li>
+  {% endif %}
+{% endfor %}
+</ul>
+Total festivals {{nbFestivals}}
+
 {% include generateArray.html %}
 ### Bands:
 
