@@ -1,7 +1,7 @@
 {% assign bandlist = "" %}
 {% for post in site.posts %}
   {% if post.category == "concert" %} 
-    {% assign item = post.tags | join:'|' | append:'|' %}
+    {% assign item = post.artists | join:'|' | append:'|' %}
     {% assign bandlist = bandlist | append:item %}
   {% endif %}
 {% endfor %}

@@ -2,7 +2,7 @@
 layout: post
 category: concert
 title: Graveyard + Black Moth
-tags: 
+artists: 
 - Graveyard
 - Black Moth
 place: 
