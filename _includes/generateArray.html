@@ -1,0 +1,21 @@
+{% assign bandlist = "" %}
+{% for post in site.posts %}
+  {% if post.category == "concert" %} 
+    {% assign item = post.tags | join:'|' | append:'|' %}
+    {% assign bandlist = bandlist | append:item %}
+  {% endif %}
+{% endfor %}
+{% assign bandlist = bandlist | split:'|' | sort %}
+
+{% assign bandlistuniq = bandlist | uniq %}
+
+{% assign placelist = "" %}
+{% for post in site.posts %}
+  {% if post.category == "concert" %} 
+    {% assign item = post.place | join:'|' | append:'|' %}
+    {% assign placelist = placelist | append:item %}
+  {% endif %}
+{% endfor %}
+{% assign placelist = placelist | split:'|' | sort %}
+
+{% assign placelistuniq = placelist | uniq %}
