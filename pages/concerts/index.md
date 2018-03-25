@@ -9,7 +9,7 @@ permalink: /concerts/
 {% assign artistList = '' %}
 <ul>
 {% assign nbConcerts = 0 %}
-{% for post in site.pages %}
+{% for post in site.posts %}
   {% if post.category == "concert" %}
     {% assign nbConcerts = nbConcerts | plus: 1 %}
     <li>
@@ -29,7 +29,7 @@ permalink: /concerts/
 ### Bands:
 
 {% assign rawtags = "" %}
-{% for post in site.pages %}
+{% for post in site.posts %}
   {% if post.category == "concert" %} 
     {% assign ttags = post.tags | join:'|' | append:'|' %}
     {% assign rawtags = rawtags | append:ttags %}
@@ -111,7 +111,7 @@ permalink: /concerts/
 
 var data = {% assign counter = 0 %}
 {
-  {% for post in site.pages %}
+  {% for post in site.posts %}
     {% if post.category == "concert" %}
       {% capture day %}
         {{ post.date | date: '%s' }}

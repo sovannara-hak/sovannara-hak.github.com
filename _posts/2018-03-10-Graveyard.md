@@ -1,7 +1,6 @@
 ---
 layout: post
 category: concert
-date: 2018-03-10
 title: Graveyard + Black Moth
 tags: 
 - Graveyard
