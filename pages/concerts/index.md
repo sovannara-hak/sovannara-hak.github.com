@@ -37,28 +37,20 @@ permalink: /concerts/
 {% endfor %}
 {% assign rawtags = rawtags | split:'|' | sort %}
 
-<ul>
-{% assign previous = "" %}
-{% assign occurence = 1 %}
-{% for tag in rawtags %}
-  {% if tag != "" %}
-    {% if previous == "" %}
-      {% assign tags = tag | split:'|' %}
-      {% assign previous = tag %}
-    {% else %}
-      {% if tags contains tag %}
-        {% assign occurence = occurence | plus: 1 %}
-      {% else %}
-        <li>{{ previous }} ({{ occurence }})</li>
-        {% assign occurence = 1 %}
-        {% assign previous = tag %}
-        {% assign tags = tags | join:'|' | append:'|' | append:tag | split:'|' %}
-      {% endif %}
-    {% endif %}
+{% include generateList.html rawtags=rawtags %}
+
+### Places:
+
+{% assign placetags = "" %}
+{% for post in site.posts %}
+  {% if post.category == "concert" %} 
+    {% assign ttags = post.place | join:'|' | append:'|' %}
+    {% assign placetags = placetags | append:ttags %}
   {% endif %}
 {% endfor %}
-<li>{{ previous }} ({{ occurence }})</li>
-</ul>
+{% assign placetags = placetags | split:'|' | sort %}
+
+{% include generateList.html rawtags=placetags %}
 
 ### Calendar:
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>

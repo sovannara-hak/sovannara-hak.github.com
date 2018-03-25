@@ -1,0 +1,23 @@
+<ul>
+{% assign previous = "" %}
+{% assign occurence = 1 %}
+{% for tag in {{include.rawtags}} %}
+  {% if tag != "" %}
+    {% if previous == "" %}
+      {% assign tags = tag | split:'|' %}
+      {% assign previous = tag %}
+    {% else %}
+      {% if tags contains tag %}
+        {% assign occurence = occurence | plus: 1 %}
+      {% else %}
+        <li>{{ previous }} ({{ occurence }})</li>
+        {% assign occurence = 1 %}
+        {% assign previous = tag %}
+        {% assign tags = tags | join:'|' | append:'|' | append:tag | split:'|' %}
+      {% endif %}
+    {% endif %}
+  {% endif %}
+{% endfor %}
+<li>{{ previous }} ({{ occurence }})</li>
+</ul>
+
