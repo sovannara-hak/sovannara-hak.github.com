@@ -25,14 +25,16 @@ permalink: /concerts/
   {% endif %}
 {% endfor %}
 </ul>
+Total concerts: {{nbConcerts}}
 
 {% include generateArray.html %}
 ### Bands:
 
 {% include generateList.html list=bandlist root="bands"%}
+Total bands: {{bandlistuniq.size}}
 
 ### Places:
 
 {% include generateList.html list=placelist root="places"%}
+Total places: {{placelistuniq.size}}
 
-### Calendar:
