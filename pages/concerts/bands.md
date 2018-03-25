@@ -11,6 +11,7 @@ permalink: /bands/
 {% include generateArray.html %}
 
 {% for band in bandlistuniq %}
+  <a name="{{ band | downcase }}"/>
 ### {{ band }}
   {% include generatePostsListByBand.html artist=band %}
 {% endfor %}
