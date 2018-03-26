@@ -1,12 +1,11 @@
 ---
 layout: post
 category: concert
-title: In Solitude + Beastmilk
+title: Ana Popović
 artists: 
-- In Solitude
-- Beastmilk
+- Ana Popović
 place: 
-- Glazart
+- Pan Piper
 country: France
 city: Paris
 ---

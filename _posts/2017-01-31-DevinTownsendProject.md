@@ -4,7 +4,7 @@ category: concert
 title: Devin Townsend Project + Between the Buried and Me + Leprous
 artists: 
 - Devin Townsend Project
-- Between the Between and Me
+- Between the Buried and Me
 - Leprous
 place: 
 - Bataclan

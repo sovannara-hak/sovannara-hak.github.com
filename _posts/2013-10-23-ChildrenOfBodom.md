@@ -3,7 +3,7 @@ layout: post
 category: concert
 title: Children of Bodom + Decapitated + Medeia
 artists: 
-- Childre of Bodom
+- Children of Bodom
 - Decapitated
 - Medeia
 place: 
