@@ -1,6 +1,6 @@
 ---
 title: Calendar
-layout: default
+layout: none
 permalink: /concerts-calendar/
 ---
 <script type="text/javascript" src="/js/jquery.min.js"></script>
