@@ -1,0 +1,16 @@
+---
+permalink: /concerts-calendar/data
+---
+
+[
+{% for post in site.posts %}
+  {% if post.category == "concert" %}
+    {
+      "title":"{{ post.title }}",
+      "start":"{{ post.date | date: "%Y-%m-%d" }}",
+      "url":"{{post.url}}"
+    }
+  {%unless forloop.last %},{%endunless%}
+  {% endif %}
+{% endfor %}
+]
