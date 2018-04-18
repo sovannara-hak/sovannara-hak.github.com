@@ -1,6 +1,6 @@
 ---
 title: Calendar
-layout: none
+layout: calendar
 permalink: /concerts-calendar/
 ---
 <script type="text/javascript" src="/js/jquery.min.js"></script>
@@ -14,11 +14,10 @@ $(document).ready(function() {
 
     $('#calendar').fullCalendar({
       header: {
-        left: 'prev,next today',
+        left: 'prev',
         center: 'title',
-        right: 'month,basicWeek,basicDay'
+        right: 'next'
       },
-      defaultDate: '2018-04-12',
       navLinks: true, // can click day/week names to navigate views
       editable: true,
       eventLimit: true, // allow "more" link when too many events
@@ -28,4 +27,9 @@ $(document).ready(function() {
 });
 
 </script>
-<div id="calendar"></div>
+<style>
+#calendar {
+    max-width: 900px;
+    padding-top: 90px !important;
+  }
+</style>
