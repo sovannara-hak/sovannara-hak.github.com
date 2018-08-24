@@ -1,7 +1,7 @@
 ---
 layout: post
 category: concert
-title: Courtney Barnett
+title: Courtney Barnett + Loose Tooth + Waxahatchee
 artists: 
 - Courtney Barnett
 - Loose Tooth

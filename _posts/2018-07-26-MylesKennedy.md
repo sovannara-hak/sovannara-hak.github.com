@@ -1,7 +1,7 @@
 ---
 layout: post
 category: concert
-title: Myles Kennedy
+title: Myles Kennedy + Dorian Sorriaux
 artists: 
 - Myles Kennedy
 - Dorian Sorriaux
