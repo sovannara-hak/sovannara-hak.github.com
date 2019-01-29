@@ -1,10 +1,10 @@
 ---
 layout: post
 category: concert
-title: Anna Calvi + Léonie Pernet
+title: Anna Calvi + LÃ©onie Pernet
 artists: 
 - Anna Calvi
-- Léonie Pernet
+- LÃ©onie Pernet
 place: 
 - Le Metronum 
 country: France

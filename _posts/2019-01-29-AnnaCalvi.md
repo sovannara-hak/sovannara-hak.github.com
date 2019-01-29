@@ -1,10 +1,10 @@
 ---
 layout: post
 category: concert
-title: Anna Calvi + Mélissa Laveaux
+title: Anna Calvi + MÃ©lissa Laveaux
 artists: 
 - Anna Calvi
-- Mélissa Laveaux
+- MÃ©lissa Laveaux
 place: 
 - Salle Pleyel
 country: France
