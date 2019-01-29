@@ -7,7 +7,7 @@ artists:
 - Julien Pras
 - Queen of the Meadow
 place: 
-- Les Étoiles
+- Les Ã‰toiles
 country: France
 city: Paris
 ---
