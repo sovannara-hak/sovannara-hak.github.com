@@ -6,7 +6,7 @@ artists:
 - Esben and the Witch
 - Ingrina
 place: 
-- Point Ephémère
+- Point EphÃ©mÃ¨re
 country: France
 city: Paris
 ---
