@@ -5,7 +5,7 @@ title: Grave Pleasures
 artists: 
 - Grave Pleasures
 place: 
-- Point Ephémère
+- Point Éphémère
 country: France
 city: Paris
 ---
