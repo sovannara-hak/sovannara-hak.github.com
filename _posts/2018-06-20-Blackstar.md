@@ -6,7 +6,7 @@ artists:
 - Anna Calvi
 - Jeanne Added
 - Anja Plaschg
-- LLaetitia Sadier
+- Laetitia Sadier
 - Jherek Bischoff
 place: 
 - Basilique de Saint-Denis

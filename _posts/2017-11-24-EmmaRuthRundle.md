@@ -1,10 +1,10 @@
 ---
 layout: post
 category: concert
-title: Emma Ruth Rundle + Jayle Jayle
+title: Emma Ruth Rundle + Jaye Jayle
 artists: 
 - Emma Ruth Rundle
-- Jayle Jayle
+- Jaye Jayle
 place: 
 - Espace B
 country: France

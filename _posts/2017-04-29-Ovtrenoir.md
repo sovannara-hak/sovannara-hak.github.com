@@ -1,10 +1,10 @@
 ---
 layout: post
 category: concert
-title: Dälek + Jayle Jayle + Emma Ruth Rundle + Ovtrenoir
+title: Dälek + Jaye Jayle + Emma Ruth Rundle + Ovtrenoir
 artists: 
 - Dälek
-- Jayle Jayle
+- Jaye Jayle
 - Emma Ruth Rundle
 - Ovtrenoir
 place: 

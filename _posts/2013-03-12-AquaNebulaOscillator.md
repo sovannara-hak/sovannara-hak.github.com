@@ -1,9 +1,9 @@
 ---
 layout: post
 category: concert
-title: Aqua Nebulla Oscillator + The Burnin' Jacks
+title: Aqua Nebula Oscillator + The Burnin' Jacks
 artists: 
-- Aqua Nebulla Oscillator
+- Aqua Nebula Oscillator
 - The Burnin' Jacks
 place: 
 - La Mécanique Ondulatoire
