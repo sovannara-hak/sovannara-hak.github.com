@@ -5,7 +5,8 @@ title: We Love Green
 startdate: 2016-06-04
 enddate: 2016-06-05
 artists: 
-- Acid Pauli
+- Savages
+- PJ Harvey
 place: 
 - Pagode du Bois de Vincennes
 country: France

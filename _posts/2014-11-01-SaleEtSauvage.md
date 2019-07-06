@@ -5,7 +5,8 @@ title: Sale et Sauvage 3
 startdate: 2014-11-01
 enddate: 2014-11-01
 artists: 
-- Docteur Culotte
+- Shake Shake Bolino
+- Violence Conjugale
 place: 
 - Mains d'Oeuvres
 country: France
