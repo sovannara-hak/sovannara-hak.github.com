@@ -3,7 +3,7 @@
 <ul>
 {% assign nbConcerts = 0 %}
 {% for post in site.posts %}
-  {% if post.category == "concert" %}
+  {% if post.category == "concert" or post.category == "festival" %}
     {% assign nbConcerts = nbConcerts | plus: 1 %}
     {% if post.artists contains artist %}
       <li>
