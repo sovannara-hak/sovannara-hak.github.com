@@ -5,13 +5,13 @@
 {% for post in site.posts %}
   {% if post.category == "concert" %}
     {% assign nbConcerts = nbConcerts | plus: 1 %}
-    {% if post.artists contains artist %}
-      <li>
-        <a href="{{ post.url }}">
-         {{ post.date | date_to_string }} : {{ post.title }}
-        </a>
-      </li>
-    {% endif %}
+  {% endif %}
+  {% if post.artists contains artist %}
+    <li>
+      <a href="{{ post.url }}">
+       {{ post.date | date_to_string }} : {{ post.title }}
+      </a>
+    </li>
   {% endif %}
 {% endfor %}
 </ul>

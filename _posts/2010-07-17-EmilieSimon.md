@@ -1,7 +1,7 @@
 ---
 layout: post
 category: concert
-title: Émilie Simon
+title: Emilie Simon
 artists: 
 - Emilie Simon
 place: 
