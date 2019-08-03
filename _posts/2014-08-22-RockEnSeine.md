@@ -12,7 +12,7 @@ artists:
 - Portishead
 - Queens of the Stone Age
 - Blondie
-- Émilie Simon
+- Emilie Simon
 - Royal Blood
 place: 
 - Domaine National de Saint-Cloud
