@@ -1,12 +1,12 @@
 ---
 layout: post
 category: concert
-title: Secret Chiefs 3
+title: Hania Rani + Geysir
 artists: 
-- Secret Chiefs 3
+- Hania Rani
+- Geysir
 place: 
-- Petit Bain
+- Les Trois Baudets
 country: France
 city: Paris
 ---
-

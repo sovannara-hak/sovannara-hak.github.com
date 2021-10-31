@@ -6,7 +6,7 @@ artists:
 - Oathbreaker
 - Syndrome
 place: 
-- Le Petit Bain
+- Petit Bain
 country: France
 city: Paris
 ---

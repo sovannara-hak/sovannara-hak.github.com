@@ -1,12 +1,11 @@
 ---
 layout: post
 category: concert
-title: Secret Chiefs 3
+title: Sarah Davachi
 artists: 
-- Secret Chiefs 3
+- Sarah Davachi
 place: 
-- Petit Bain
+- Église Saint-Eustache
 country: France
 city: Paris
 ---
-

@@ -1,12 +1,11 @@
 ---
 layout: post
 category: concert
-title: Secret Chiefs 3
+title: Olivia Ruiz
 artists: 
-- Secret Chiefs 3
+- Olivia Ruiz
 place: 
-- Petit Bain
+- Théatre des Bouffes du Nord
 country: France
 city: Paris
 ---
-

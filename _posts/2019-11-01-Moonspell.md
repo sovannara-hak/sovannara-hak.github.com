@@ -7,7 +7,7 @@ artists:
 - Rotting Christ
 - Silver Dust
 place: 
-- La Machine Du Moulin Rouge
+- La Machine du Moulin Rouge
 country: France
 city: Paris
 ---

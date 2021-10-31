@@ -8,7 +8,7 @@ artists:
 - Sadist
 - Vital Remains
 place: 
-- Le Petit Bain
+- Petit Bain
 country: France
 city: Paris
 ---

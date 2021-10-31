@@ -6,7 +6,7 @@ artists:
 - Oathbreaker
 - Wife
 place: 
-- Le Petit Bain
+- Petit Bain
 country: France
 city: Paris
 ---

@@ -1,12 +1,11 @@
 ---
 layout: post
 category: concert
-title: Secret Chiefs 3
+title: Lebanon Hanover
 artists: 
-- Secret Chiefs 3
+- Lebanon Hanover
 place: 
-- Petit Bain
+- La Gaîté Lyrique
 country: France
 city: Paris
 ---
-

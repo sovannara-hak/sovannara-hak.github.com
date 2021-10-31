@@ -1,12 +1,11 @@
 ---
 layout: post
 category: concert
-title: Secret Chiefs 3
+title: Twin Temple
 artists: 
-- Secret Chiefs 3
+- Twin Temple
 place: 
-- Petit Bain
+- Point Éphémère
 country: France
 city: Paris
 ---
-

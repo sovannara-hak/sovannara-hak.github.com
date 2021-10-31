@@ -7,7 +7,7 @@ artists:
 - Full of Hell
 - Monument of Misanthropy
 place: 
-- Le Petit Bain
+- Petit Bain
 country: France
 city: Paris
 ---

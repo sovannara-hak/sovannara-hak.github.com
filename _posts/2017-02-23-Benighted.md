@@ -6,7 +6,7 @@ artists:
 - Benighted 
 - Svart Crown
 place: 
-- Le Petit Bain
+- Petit Bain
 country: France
 city: Paris
 ---

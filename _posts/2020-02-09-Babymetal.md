@@ -1,12 +1,12 @@
 ---
 layout: post
 category: concert
-title: Secret Chiefs 3
+title: Babymetal + Skynd
 artists: 
-- Secret Chiefs 3
+- Babymetal
+- Skynd
 place: 
-- Petit Bain
+- Élysée Montmartre
 country: France
 city: Paris
 ---
-

@@ -1,12 +1,11 @@
 ---
 layout: post
 category: concert
-title: Secret Chiefs 3
+title: Thomas Dutronc
 artists: 
-- Secret Chiefs 3
+- Thomas Dutronc
 place: 
-- Petit Bain
+- La Cigale
 country: France
 city: Paris
 ---
-

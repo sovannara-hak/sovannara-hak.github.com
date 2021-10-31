@@ -1,12 +1,11 @@
 ---
 layout: post
 category: concert
-title: Secret Chiefs 3
+title: Dir En Grey
 artists: 
-- Secret Chiefs 3
+- Dir En Grey
 place: 
-- Petit Bain
+- Élysée Montmartre
 country: France
 city: Paris
 ---
-
