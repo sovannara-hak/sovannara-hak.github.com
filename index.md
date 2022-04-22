@@ -87,12 +87,8 @@ layout: default
    - Android Studio
    - Visual Studio
    - 3DS Max (modeling and rendering)
-   - XDE (dynamic simulator)
-   - OpenHRP (simulation platform)
    - Evart/Cortex (motion capture)
  - Platform
-   - Kuka LWR4
-   - HRP-2
    - Motion Analysis motion capture system
  </div>
 </div>
