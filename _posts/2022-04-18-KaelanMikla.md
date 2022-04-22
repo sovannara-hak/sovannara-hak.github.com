@@ -1,14 +1,12 @@
 ---
 layout: post
 category: concert
-title: King Dude + Kælan Mikla + The Dark Red Seed
+title: Kælan Mikla + Kanga
 artists: 
-- King Dude
 - Kælan Mikla
-- The Dark Red Seed
+- Kanga
 place: 
 - Petit Bain
 country: France
 city: Paris
 ---
-
