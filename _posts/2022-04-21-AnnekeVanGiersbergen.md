@@ -1,9 +1,9 @@
 ---
 layout: post
 category: concert
-title: Anneke Van Giersbergen + Attraction Theory
+title: Anneke van Giersbergen + Attraction Theory
 artists: 
-- Anneke Van Giersbergen
+- Anneke van Giersbergen
 - Attraction Theory
 place: 
 - Petit Bain

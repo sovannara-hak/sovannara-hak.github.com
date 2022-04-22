@@ -1,7 +1,7 @@
 ---
 layout: post
 category: concert
-title: Anna Von Hausswolff
+title: Anna von Hausswolff
 artists: 
 - Anna Von Hausswolff
 place: 
