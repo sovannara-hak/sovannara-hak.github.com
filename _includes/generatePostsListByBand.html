@@ -9,7 +9,7 @@
   {% if post.artists contains artist %}
     <li>
       <a href="{{ post.url }}">
-       {{ post.date | date_to_string }} : {{ post.title }} - {{ post.place }} ({{ post.city }} - {{ post.country }})
+       {{ post.date | date_to_string }} : {{ post.title }} at {{ post.place }} ({{ post.city }} - {{ post.country }})
       </a>
     </li>
   {% endif %}
