@@ -1,10 +1,10 @@
 ---
 layout: post
 category: concert
-title: KT Tunstall + Pictish Trail
+title: KT Tunstall + The Pictish Trail
 artists: 
 - KT Tunstall
-- Pictish Trail
+- The Pictish Trail
 place: 
 - Nouveau Casino
 country: France

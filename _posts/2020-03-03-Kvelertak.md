@@ -1,10 +1,10 @@
 ---
 layout: post
 category: concert
-title: Kvelertak + Planet of Zeus + Blood Command
+title: Kvelertak + Planet Of Zeus + Blood Command
 artists: 
 - Kvelertak
-- Planet of Zeus
+- Planet Of Zeus
 - Blood Command
 place: 
 - Le Trabendo
