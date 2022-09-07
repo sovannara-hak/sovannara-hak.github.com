@@ -5,7 +5,7 @@ title: Mashrou' Leila
 artists: 
 - Mashrou' Leila
 place: 
-- Hotel de Ville de Paris
+- Hôtel de Ville de Paris
 country: France
 city: Paris
 ---

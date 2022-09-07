@@ -5,7 +5,7 @@ title: Olivia Ruiz
 artists: 
 - Olivia Ruiz
 place: 
-- 104
+- Le 104
 country: France
 city: Paris
 ---

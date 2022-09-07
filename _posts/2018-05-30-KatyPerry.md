@@ -4,7 +4,9 @@ category: concert
 title: Katy Perry
 artists: 
 - Katy Perry
-place: 
+place:
+- Bercy
+altplace:
 - AccorHotels Arena
 country: France
 city: Paris

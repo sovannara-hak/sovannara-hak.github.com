@@ -6,6 +6,8 @@ artists:
 - Julien Doré
 - P.R2b
 place: 
+- Bercy
+altplace:
 - Accor Arena
 country: France
 city: Paris

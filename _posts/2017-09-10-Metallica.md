@@ -6,6 +6,8 @@ artists:
 - Metallica
 - Kvelertak
 place: 
+- Bercy
+altplace:
 - AccorHotels Arena
 country: France
 city: Paris

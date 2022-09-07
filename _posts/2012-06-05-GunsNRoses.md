@@ -6,6 +6,8 @@ artists:
 - Guns N' Roses
 - Shaka Ponk
 place: 
+- Bercy
+altplace:
 - Palais Omnisports de Paris-Bercy
 country: France
 city: Paris
