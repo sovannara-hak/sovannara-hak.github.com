@@ -1,12 +1,11 @@
 ---
 layout: post
 category: concert
-title: Cats On Trees
+title: Dani Larkin
 artists: 
-- Cats On Trees
+- Dani Larkin
 place: 
-- La Cigale
+- Centre Culturel Irlandais
 country: France
 city: Paris
 ---
-

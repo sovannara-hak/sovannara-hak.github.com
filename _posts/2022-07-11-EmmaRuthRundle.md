@@ -1,12 +1,12 @@
 ---
 layout: post
 category: concert
-title: Julien Doré + Marie-Flore
+title: Emma Ruth Rundle + Jo Quail
 artists: 
-- Julien Doré
-- Marie-Flore
+- Emma Ruth Rundle
+- Jo Quail
 place: 
-- Accor Arena
+- L'Européen
 country: France
 city: Paris
 ---

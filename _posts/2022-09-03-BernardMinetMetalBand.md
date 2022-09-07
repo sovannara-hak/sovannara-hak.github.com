@@ -6,7 +6,7 @@ artists:
 - Bernard Minet Metal Band
 - The Roadies Of The D
 place: 
-- Nouveau Casino
+- Petit Bain
 country: France
 city: Paris
 ---

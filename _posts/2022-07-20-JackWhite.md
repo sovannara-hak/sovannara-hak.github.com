@@ -1,12 +1,12 @@
 ---
 layout: post
 category: concert
-title: Cats On Trees
+title: Jack White + Mdou Moctar
 artists: 
-- Cats On Trees
+- Jack White
+- Mdou Moctar
 place: 
-- La Cigale
+- L'Olympia
 country: France
 city: Paris
 ---
-

@@ -1,12 +1,12 @@
 ---
 layout: post
 category: concert
-title: Julien Doré + Marie-Flore
+title: Pinegrove + Another Michael
 artists: 
-- Julien Doré
-- Marie-Flore
+- Pinegrove
+- Another Michael
 place: 
-- Accor Arena
+- La Boule Noire
 country: France
 city: Paris
 ---

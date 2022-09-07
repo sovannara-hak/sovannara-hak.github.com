@@ -1,12 +1,11 @@
 ---
 layout: post
 category: concert
-title: Cats On Trees
+title: Isabel Sörling
 artists: 
-- Cats On Trees
+- Isabel Sörling
 place: 
-- La Cigale
+- Institut Suèdois
 country: France
 city: Paris
 ---
-

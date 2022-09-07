@@ -17,8 +17,8 @@ artists:
 - The Murder Capital
 - Royal Blood
 place: 
-- Parc de Bagatelle
+- Domaine National de Saint-Cloud
 country: France
-city: Paris
+city: Saint-Cloud
 ---
 

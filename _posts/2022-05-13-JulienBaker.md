@@ -1,12 +1,12 @@
 ---
 layout: post
 category: concert
-title: Cats On Trees
+title: Julien Baker + Ratboys
 artists: 
-- Cats On Trees
+- Julien Baker
+- Ratboys
 place: 
-- La Cigale
+- Le Trabendo
 country: France
 city: Paris
 ---
-

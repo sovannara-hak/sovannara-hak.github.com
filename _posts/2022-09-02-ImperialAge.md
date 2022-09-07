@@ -1,12 +1,12 @@
 ---
 layout: post
 category: concert
-title: Julien Doré + Marie-Flore
+title: Imperial Age + Beneath My Sins
 artists: 
-- Julien Doré
-- Marie-Flore
+- Imperial Age
+- Beneath My Sins
 place: 
-- Accor Arena
+- Petit Bain
 country: France
 city: Paris
 ---

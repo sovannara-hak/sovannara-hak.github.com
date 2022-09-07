@@ -1,13 +1,12 @@
 ---
 layout: post
 category: concert
-title: Klone + Hangman's Chair
+title: Black Honey + Super Ego
 artists: 
-- Klone
-- Hangman's Chair
+- Black Honey
+- Super Ego
 place: 
 - Backstage By The Mill
 country: France
 city: Paris
 ---
-

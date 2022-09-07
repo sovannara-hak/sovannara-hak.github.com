@@ -6,7 +6,7 @@ artists:
 - A Perfect Circle
 - Chelsea Wolfe
 place: 
-- Le Zenith de Paris
+- Le Zénith de Paris
 country: France
 city: Paris
 ---

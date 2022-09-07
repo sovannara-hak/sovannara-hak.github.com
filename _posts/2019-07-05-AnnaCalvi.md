@@ -7,7 +7,7 @@ artists:
 - Johan Papaconstantino
 - Canine
 place: 
-- Hôtel de ville
+- Hôtel de Ville de Paris
 country: France
 city: Paris
 ---

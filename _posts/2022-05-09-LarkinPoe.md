@@ -1,12 +1,12 @@
 ---
 layout: post
 category: concert
-title: Cats On Trees
+title: Larkin Poe + Ryan McMullan
 artists: 
-- Cats On Trees
+- Larkin Poe
+- Ryan McMullan
 place: 
-- La Cigale
+- Le Trianon
 country: France
 city: Paris
 ---
-

@@ -1,10 +1,10 @@
 ---
 layout: post
 category: concert
-title: Julien Doré + Marie-Flore
+title: Billie Eilish + Jessie Reyez
 artists: 
-- Julien Doré
-- Marie-Flore
+- Billie Eilish
+- Jessie Reyez
 place: 
 - Accor Arena
 country: France
