@@ -7,7 +7,7 @@ artists:
 - Arch Enemy
 - Hypocrisy
 place: 
-- Zénith
+- Le Zénith de Paris
 country: France
 city: Paris
 ---

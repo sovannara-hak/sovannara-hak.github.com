@@ -6,7 +6,7 @@ artists:
 - The Lumineers
 - Mighty Oaks
 place: 
-- Zénith
+- Le Zénith de Paris
 country: France
 city: Paris
 ---

@@ -5,7 +5,7 @@ title: Émilie Simon
 artists: 
 - Emilie Simon
 place: 
-- Les Folies Bergères
+- Folies Bergère
 country: France
 city: Paris
 ---

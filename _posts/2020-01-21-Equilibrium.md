@@ -7,7 +7,7 @@ artists:
 - Lord of the Lost
 - Nailed to Obscurity
 place: 
-- Trabendo
+- Le Trabendo
 country: France
 city: Paris
 ---
