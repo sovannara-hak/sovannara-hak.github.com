@@ -13,16 +13,6 @@
     - subtitle: "Active Waiting"
       subhref: "/pages/activeWaiting.html"
 
-- title: "WebGL Demos"
-  href: "#"
-  subcategories:
-    - subtitle: "Demo 01"
-      subhref: "/pages/webgl-demo/demo01.html"
-    - subtitle: "Demo 02"
-      subhref: "/pages/webgl-demo/demo02.html"
-    - subtitle: "Demo 03"
-      subhref: "/pages/webgl-demo/demo03.html"
-
 - title: "Github profile"
   href: "https://github.com/sovannara-hak"
 
