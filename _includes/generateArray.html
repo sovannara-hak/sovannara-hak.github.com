@@ -17,3 +17,21 @@
 {% assign placelist = placelist | split:'|' | sort %}
 
 {% assign placelistuniq = placelist | uniq %}
+
+{% assign citylist = "" %}
+{% for post in site.posts %}
+    {% assign item = post.city | join:'|' | append:'|' %}
+    {% assign citylist = citylist | append:item %}
+{% endfor %}
+{% assign citylist = citylist | split:'|' | sort %}
+
+{% assign citylistuniq = citylist | uniq %}
+
+{% assign yearlist = "" %}
+{% for post in site.posts %}
+    {% assign item = post.date | date: "%Y" | append:'|' %}
+    {% assign yearlist = yearlist | append:item %}
+{% endfor %}
+{% assign yearlist = yearlist | split:'|' | sort %}
+
+{% assign yearlistuniq = yearlist | uniq %}

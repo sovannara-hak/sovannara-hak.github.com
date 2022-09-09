@@ -10,6 +10,6 @@ artists:
 place: 
 - Le Bikini
 country: France
-city: Ramonville-Saint-Age
+city: Ramonville-Saint-Agne
 ---
 

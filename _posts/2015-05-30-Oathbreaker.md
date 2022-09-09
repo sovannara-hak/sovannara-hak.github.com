@@ -1,10 +1,10 @@
 ---
 layout: post
 category: concert
-title: Oathbreaker + Year of No Light + Monarch! + The Prestige + Valve
+title: Oathbreaker + Year Of No Light + Monarch! + The Prestige + Valve
 artists: 
 - Oathbreaker
-- Year of No Light
+- Year Of No Light
 - Monarch!
 - The Prestige
 - Valve

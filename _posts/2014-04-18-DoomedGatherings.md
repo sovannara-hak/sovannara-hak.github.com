@@ -7,7 +7,7 @@ enddate: 2014-04-20
 artists: 
 - Windhand
 - Elder
-- Year of No Light
+- Year Of No Light
 - Huata
 - Dark Buddha Rising
 - The Socks

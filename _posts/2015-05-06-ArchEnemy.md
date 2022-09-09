@@ -9,6 +9,6 @@ artists:
 place: 
 - L'Empreinte
 country: France
-city: Savigny-le-Temple
+city: Savigny-Le-Temple
 ---
 

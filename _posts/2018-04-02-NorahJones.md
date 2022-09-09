@@ -7,6 +7,6 @@ artists:
 place: 
 - La Seine Musicale
 country: France
-city: Boulogn-Billancourt
+city: Boulogne-Billancourt
 ---
 
