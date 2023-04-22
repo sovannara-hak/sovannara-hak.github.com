@@ -6,7 +6,7 @@ artists:
 - Press Club
 - Atlas For Home
 place: 
-- 1999
+- "1999"
 country: France
 city: Paris
 ---
