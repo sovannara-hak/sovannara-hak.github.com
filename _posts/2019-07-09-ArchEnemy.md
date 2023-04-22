@@ -8,5 +8,5 @@ artists:
 place: 
 - Le Bikini
 country: France
-city: Toulouse
+city: Ramonville-Saint-Agne
 ---
