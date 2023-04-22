@@ -6,7 +6,7 @@ artists:
 - Daniel Johnston
 - Jad Fair
 place: 
-- La Gaîté Lyrique
+- Gaîté Lyrique
 country: France
 city: Paris
 ---

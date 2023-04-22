@@ -7,7 +7,7 @@ artists:
 - Cate Le Bon
 - Hatchie
 place: 
-- Le Trabendo
+- Trabendo
 country: France
 city: Paris
 ---

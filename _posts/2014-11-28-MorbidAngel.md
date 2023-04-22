@@ -7,7 +7,7 @@ artists:
 - Ad Patres
 - Gorod
 place: 
-- Le Trabendo
+- Trabendo
 country: France
 city: Paris
 ---

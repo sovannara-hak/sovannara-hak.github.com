@@ -5,7 +5,7 @@ title: Juliette & the Licks
 artists: 
 - Juliette & the Licks
 place: 
-- Le Trabendo
+- Trabendo
 country: France
 city: Paris
 ---

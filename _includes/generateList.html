@@ -5,19 +5,19 @@
   {% if item != "" %}
     {% if previous == "" %}
       {% assign items = item | split:'|' %}
-      {% assign previous = item %}
+      {% assign previous = "" | append:item %}
     {% else %}
       {% if items contains item %}
         {% assign occurence = occurence | plus: 1 %}
       {% else %}
-      <li><a href="/{{include.root}}#{{ previous | downcase }}">{{ previous }}</a> ({{ occurence }})</li>
+      <li><a href="/{{include.root}}#{{ previous | downcase }}">{{ "" | append:previous }}</a> ({{ occurence }})</li>
         {% assign occurence = 1 %}
-        {% assign previous = item %}
-        {% assign items = items | join:'|' | append:'|' | append:item | split:'|' %}
+        {% assign previous = "" | append:item %}
+        {% assign items = items | join:'|' | append:'|' | append:previous | split:'|' %}
       {% endif %}
     {% endif %}
   {% endif %}
 {% endfor %}
-<li><a href="/{{include.root}}#{{ previous | downcase }}">{{ previous }}</a> ({{ occurence }})</li>
+<li><a href="/{{include.root}}#{{ previous | uri_escape | downcase }}">{{ previous }}</a> ({{ occurence }})</li>
 </ul>
 

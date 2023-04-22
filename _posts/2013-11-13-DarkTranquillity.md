@@ -6,7 +6,7 @@ artists:
 - Dark Tranquillity
 - Tristania
 place: 
-- Le Trabendo
+- Trabendo
 country: France
 city: Paris
 ---

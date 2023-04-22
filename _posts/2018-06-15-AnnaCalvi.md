@@ -5,7 +5,7 @@ title: Anna Calvi
 artists: 
 - Anna Calvi
 place: 
-- La Gaîté Lyrique 
+- Gaîté Lyrique 
 country: France
 city: Paris
 ---

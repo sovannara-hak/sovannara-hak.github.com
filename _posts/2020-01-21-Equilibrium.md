@@ -1,13 +1,13 @@
 ---
 layout: post
 category: concert
-title: Equilibrium + Lord of the Lost + Nailed to Obscurity
+title: Equilibrium + Lord of the Lost + Nailed To Obscurity
 artists: 
 - Equilibrium
 - Lord of the Lost
-- Nailed to Obscurity
+- Nailed To Obscurity
 place: 
-- Le Trabendo
+- Trabendo
 country: France
 city: Paris
 ---

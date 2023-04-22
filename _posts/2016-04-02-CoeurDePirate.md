@@ -5,7 +5,7 @@ title: Cœur de Pirate
 artists: 
 - Cœur de Pirate
 place: 
-- Le Zénith de Paris
+- Zénith de Paris
 country: France
 city: Paris
 ---

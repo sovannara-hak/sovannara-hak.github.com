@@ -6,7 +6,7 @@ artists:
 - Julien Baker
 - Ratboys
 place: 
-- Le Trabendo
+- Trabendo
 country: France
 city: Paris
 ---

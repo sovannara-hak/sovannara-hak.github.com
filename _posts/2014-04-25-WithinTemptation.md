@@ -6,7 +6,7 @@ artists:
 - Within Temptation
 - Delain
 place: 
-- Le Zénith de Paris
+- Zénith de Paris
 country: France
 city: Paris
 ---

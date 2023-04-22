@@ -6,7 +6,7 @@ artists:
 - Talk Talk Show
 - Dealing For Dimes
 place: 
-- L'Olympic Café
+- Olympic Café
 country: France
 city: Paris
 ---

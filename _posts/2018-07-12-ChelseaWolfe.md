@@ -6,7 +6,7 @@ artists:
 - Chelsea Wolfe
 - Emma Ruth Rundle
 place: 
-- Le Trabendo
+- Trabendo
 country: France
 city: Paris
 ---

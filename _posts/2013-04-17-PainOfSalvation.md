@@ -7,7 +7,7 @@ artists:
 - Anneke van Giersbergen
 - Árstíðir
 place: 
-- Le Trabendo
+- Trabendo
 country: France
 city: Paris
 ---

@@ -1,9 +1,9 @@
 ---
 layout: post
 category: concert
-title: Cult of Luna + Brutus + A.A. Williams
+title: Cult Of Luna + Brutus + A.A. Williams
 artists: 
-- Cult of Luna
+- Cult Of Luna
 - Brutus
 - A.A. Williams
 place: 

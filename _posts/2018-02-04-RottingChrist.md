@@ -7,7 +7,7 @@ artists:
 - Carach Angren
 - Svart Crown
 place: 
-- Le Trabendo
+- Trabendo
 country: France
 city: Paris
 ---

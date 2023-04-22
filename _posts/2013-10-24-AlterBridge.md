@@ -6,7 +6,7 @@ artists:
 - Alter Bridge
 - Halestorm
 place: 
-- Le Zénith de Paris
+- Zénith de Paris
 country: France
 city: Paris
 ---

@@ -6,7 +6,7 @@ artists:
 - Queens of the Stone Age
 - Sweethead
 place: 
-- Le Zénith de Paris
+- Zénith de Paris
 country: France
 city: Paris
 ---

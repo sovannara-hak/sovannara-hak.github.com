@@ -6,7 +6,7 @@ artists:
 - Nick Waterhouse
 - The Ready-Mades
 place: 
-- Le Trabendo
+- Trabendo
 country: France
 city: Paris
 ---

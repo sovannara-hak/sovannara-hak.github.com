@@ -6,7 +6,7 @@ artists:
 - Nine Inch Nails
 - Cold Cave
 place: 
-- Le Zénith de Paris
+- Zénith de Paris
 country: France
 city: Paris
 ---

@@ -7,7 +7,7 @@ artists:
 - Between the Buried and Me
 - Plini
 place: 
-- Le Trabendo
+- Trabendo
 country: France
 city: Paris
 ---

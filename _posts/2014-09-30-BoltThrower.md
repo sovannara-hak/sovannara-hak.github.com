@@ -7,7 +7,7 @@ artists:
 - Morgoth
 - Vallenfyre
 place: 
-- Le Trabendo
+- Trabendo
 country: France
 city: Paris
 ---

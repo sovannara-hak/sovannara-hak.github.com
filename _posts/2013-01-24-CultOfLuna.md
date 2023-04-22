@@ -1,9 +1,9 @@
 ---
 layout: post
 category: concert
-title: Cult of Luna + Abraham
+title: Cult Of Luna + Abraham
 artists: 
-- Cult of Luna
+- Cult Of Luna
 - Abraham
 place: 
 - Divan du Monde

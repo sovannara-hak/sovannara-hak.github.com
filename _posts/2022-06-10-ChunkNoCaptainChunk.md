@@ -8,7 +8,7 @@ artists:
 - Two Trains Left
 - Mirabelle
 place: 
-- Le Trabendo
+- Trabendo
 country: France
 city: Paris
 ---

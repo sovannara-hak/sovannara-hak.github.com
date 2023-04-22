@@ -5,7 +5,7 @@ title: Assassin's Creed Symphonic
 artists: 
 - Assassin's Creed Symphonic
 place: 
-- Le Grand Rex
+- Grand Rex
 country: France
 city: Paris
 ---

@@ -8,7 +8,7 @@ artists:
 - Carcass
 - Unto Others
 place: 
-- Le Zénith de Paris
+- Zénith de Paris
 country: France
 city: Paris
 ---

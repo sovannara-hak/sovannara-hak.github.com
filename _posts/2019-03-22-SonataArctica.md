@@ -6,7 +6,7 @@ artists:
 - Sonata Arctica
 - Witherfall
 place: 
-- Le Trabendo
+- Trabendo
 country: France
 city: Paris
 ---

@@ -5,7 +5,7 @@ title: The Gazette
 artists: 
 - The Gazette
 place: 
-- Le Zénith de Paris
+- Zénith de Paris
 country: France
 city: Paris
 ---

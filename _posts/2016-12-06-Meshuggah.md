@@ -1,10 +1,10 @@
 ---
 layout: post
 category: concert
-title: Meshuggah + High on Fire
+title: Meshuggah + High On Fire
 artists: 
 - Meshuggah
-- High on Fire
+- High On Fire
 place: 
 - Bataclan
 country: France

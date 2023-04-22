@@ -7,7 +7,7 @@ artists:
 - Horskh
 - Sierra
 place: 
-- Le Zénith de Paris
+- Zénith de Paris
 country: France
 city: Paris
 ---

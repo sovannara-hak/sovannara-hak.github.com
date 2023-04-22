@@ -6,7 +6,7 @@ artists:
 - The Smashing Pumpkins
 - Naive Naive Beaters
 place: 
-- Le Zénith de Paris
+- Zénith de Paris
 country: France
 city: Paris
 ---

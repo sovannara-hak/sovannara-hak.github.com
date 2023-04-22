@@ -6,7 +6,7 @@ artists:
 - Melissa Auf Der Maur
 - Birdpen
 place: 
-- Le Trabendo
+- Trabendo
 country: France
 city: Paris
 ---

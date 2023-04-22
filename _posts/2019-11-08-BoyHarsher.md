@@ -6,7 +6,7 @@ artists:
 - Boy Harsher
 - Hante
 place: 
-- Le Trabendo
+- Trabendo
 country: France
 city: Paris
 ---

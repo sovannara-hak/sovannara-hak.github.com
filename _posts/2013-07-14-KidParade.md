@@ -13,7 +13,7 @@ artists:
 - Myra
 - Son of
 place: 
-- Le Trabendo
+- Trabendo
 country: France
 city: Paris
 ---

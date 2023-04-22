@@ -6,7 +6,7 @@ artists:
 - Regarde Les Hommes Tomber
 - Decline Of The I
 place: 
-- Le Trabendo
+- Trabendo
 country: France
 city: Paris
 ---

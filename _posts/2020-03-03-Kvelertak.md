@@ -7,7 +7,7 @@ artists:
 - Planet Of Zeus
 - Blood Command
 place: 
-- Le Trabendo
+- Trabendo
 country: France
 city: Paris
 ---

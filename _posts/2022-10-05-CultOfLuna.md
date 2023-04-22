@@ -7,7 +7,7 @@ artists:
 - Caspian
 - Birds In Row
 place: 
-- Le Metronum 
+- Metronum
 country: France
 city: Toulouse
 ---

@@ -8,7 +8,7 @@ artists:
 - Requin Chagrin
 - Kate NV
 place: 
-- Le Trabendo
+- Trabendo
 country: France
 city: Paris
 ---

@@ -1,11 +1,11 @@
 ---
 layout: post
 category: concert
-title: Church of Misery + Conan + High on Fire
+title: Church of Misery + Conan + High On Fire
 artists: 
 - Church of Misery
 - Conan
-- High on Fire
+- High On Fire
 place: 
 - Glazart
 country: France

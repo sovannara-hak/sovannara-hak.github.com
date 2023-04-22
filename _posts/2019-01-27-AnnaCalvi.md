@@ -6,7 +6,7 @@ artists:
 - Anna Calvi
 - Léonie Pernet
 place: 
-- Le Metronum 
+- Metronum
 country: France
 city: Toulouse
 ---

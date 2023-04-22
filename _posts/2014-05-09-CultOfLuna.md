@@ -1,12 +1,12 @@
 ---
 layout: post
 category: concert
-title: Cult of Luna + God Seed
+title: Cult Of Luna + God Seed
 artists: 
-- Cult of Luna
+- Cult Of Luna
 - God Seed
 place: 
-- Le Trabendo
+- Trabendo
 country: France
 city: Paris
 ---

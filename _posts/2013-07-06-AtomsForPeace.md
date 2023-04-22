@@ -6,7 +6,7 @@ artists:
 - Atoms for Peace
 - Owiny Sigoma Band
 place: 
-- Le Zénith de Paris
+- Zénith de Paris
 country: France
 city: Paris
 ---

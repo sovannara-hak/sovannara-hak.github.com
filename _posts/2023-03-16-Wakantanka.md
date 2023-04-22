@@ -7,7 +7,7 @@ artists:
 - Witchorious
 - Ciconia
 place: 
-- L'Olympic Café
+- Olympic Café
 country: France
 city: Paris
 ---

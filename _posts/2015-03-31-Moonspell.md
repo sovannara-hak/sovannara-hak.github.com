@@ -6,7 +6,7 @@ artists:
 - Moonspell
 - Septicflesh
 place: 
-- Le Trabendo
+- Trabendo
 country: France
 city: Paris
 ---

@@ -13,9 +13,9 @@ artists:
 - Collages
 - Imparfait
 - Grandma's Ashes
-- Shewolf
+- SheWolf
 place: 
-- L'Olympic Café
+- Olympic Café
 country: France
 city: Paris
 ---

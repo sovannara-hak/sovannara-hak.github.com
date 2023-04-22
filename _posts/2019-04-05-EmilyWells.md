@@ -5,7 +5,7 @@ title: Emily Wells
 artists: 
 - Emily Wells
 place: 
-- Le Trabendo
+- Trabendo
 country: France
 city: Paris
 ---

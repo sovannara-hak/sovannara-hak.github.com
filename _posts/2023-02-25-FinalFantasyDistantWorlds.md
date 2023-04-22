@@ -5,7 +5,7 @@ title: Final Fantasy Distant Worlds
 artists: 
 - Final Fantasy Distant Worlds
 place: 
-- Le Grand Rex
+- Grand Rex
 country: France
 city: Paris
 ---

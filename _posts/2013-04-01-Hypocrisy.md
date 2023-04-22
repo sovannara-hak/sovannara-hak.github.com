@@ -7,7 +7,7 @@ artists:
 - Essence
 - Hate
 place: 
-- Le Trabendo
+- Trabendo
 country: France
 city: Paris
 ---

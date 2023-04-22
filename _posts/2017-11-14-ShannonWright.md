@@ -6,7 +6,7 @@ artists:
 - Shannon Wright
 - Elias Dris
 place: 
-- La Gaîté Lyrique
+- Gaîté Lyrique
 country: France
 city: Paris
 ---

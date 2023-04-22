@@ -1,12 +1,12 @@
 ---
 layout: post
 category: concert
-title: Cult of Luna + Moloken
+title: Cult Of Luna + Moloken
 artists: 
-- Cult of Luna
+- Cult Of Luna
 - Moloken
 place: 
-- La Gaîté Lyrique
+- Gaîté Lyrique
 country: France
 city: Paris
 ---

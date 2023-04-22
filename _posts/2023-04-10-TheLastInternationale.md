@@ -6,7 +6,7 @@ artists:
 - The Last Internationale
 - Carissa Johnson
 place: 
-- Le Trabendo
+- Trabendo
 country: France
 city: Paris
 ---

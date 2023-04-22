@@ -8,7 +8,7 @@ artists:
 - Alluvial
 - Creeping Death
 place: 
-- Le Trabendo
+- Trabendo
 country: France
 city: Paris
 ---

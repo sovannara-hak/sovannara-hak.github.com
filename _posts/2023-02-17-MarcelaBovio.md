@@ -6,7 +6,7 @@ artists:
 - Marcela Bovio
 - Beneath My Sins
 place: 
-- L'Usine Spring Court
+- La Péniche Antipode
 country: France
 city: Paris
 ---

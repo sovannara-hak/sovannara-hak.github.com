@@ -5,7 +5,7 @@ title: Lebanon Hanover
 artists: 
 - Lebanon Hanover
 place: 
-- La Gaîté Lyrique
+- Gaîté Lyrique
 country: France
 city: Paris
 ---
