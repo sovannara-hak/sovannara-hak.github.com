@@ -1,9 +1,9 @@
 ---
 layout: post
 category: concert
-title: Anna von Hausswolff + Marquis de Sade + Exploded View
+title: Anna Von Hausswolff + Marquis de Sade + Exploded View
 artists: 
-- Anna von Hausswolff
+- Anna Von Hausswolff
 - Marquis de Sade
 - Exploded View
 place: 

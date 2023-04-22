@@ -1,9 +1,9 @@
 ---
 layout: post
 category: concert
-title: Anna von Hausswolff
+title: Anna Von Hausswolff
 artists: 
-- Anna von Hausswolff
+- Anna Von Hausswolff
 place: 
 - Église Protestante Unie de l'Étoile
 country: France

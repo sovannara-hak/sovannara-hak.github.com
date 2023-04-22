@@ -1,11 +1,11 @@
 ---
 layout: post
 category: concert
-title: Cult Of Luna + Caspian + Birds In Rows
+title: Cult Of Luna + Caspian + Birds In Row
 artists: 
 - Cult Of Luna
 - Caspian
-- Birds In Rows
+- Birds In Row
 place: 
 - L'Aéronef
 country: France

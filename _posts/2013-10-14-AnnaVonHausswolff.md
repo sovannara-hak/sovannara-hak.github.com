@@ -1,9 +1,9 @@
 ---
 layout: post
 category: concert
-title: Anna von Hausswolff + BlackThread + VS
+title: Anna Von Hausswolff + BlackThread + VS
 artists: 
-- Anna von Hausswolff
+- Anna Von Hausswolff
 - BlackThread
 - VS
 place: 

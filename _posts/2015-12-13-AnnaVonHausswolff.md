@@ -1,9 +1,9 @@
 ---
 layout: post
 category: concert
-title: Anna von Hausswolff + The Group + Vendege
+title: Anna Von Hausswolff + The Group + Vendege
 artists: 
-- Anna von Hausswolff
+- Anna Von Hausswolff
 - The Group
 - Vendege
 place: 
