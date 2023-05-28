@@ -1,7 +1,7 @@
 ---
 layout: post
 category: concert
-title: David Bowie - Blackstar
+title: David Bowie Tribute - Blackstar
 artists: 
 - Anna Calvi
 - Jeanne Added

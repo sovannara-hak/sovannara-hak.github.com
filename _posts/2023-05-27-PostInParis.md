@@ -17,7 +17,6 @@ artists:
 - Saar
 - Maudits
 - Yarotz
-- Arhios
 - Birds In Row
 place: 
 - Petit Bain
