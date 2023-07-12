@@ -12,8 +12,11 @@
 {% endif %}
 
   <h2>{{ page.title }}</h2>
-  <h3>{{ page.place }} {% if page.altplace != nil %} ({{ page.altplace }}) {% endif %} - {{page.city}}, {{page.country}}</h3>
-
+  <h3>
+  {% for item in page.place %}
+    {{ item }} {% if page.altplace != nil %} ({{ page.altplace[forloop.index0] }}) {% endif %} - {{page.city}}, {{page.country}}<br>
+  {% endfor %}
+  </h3>
   {{ content }}
 </section>
 
