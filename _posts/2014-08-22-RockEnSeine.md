@@ -8,7 +8,7 @@ artists:
 - Arctic Monkeys
 - Airbourne
 - Brody Dalle
-- Lana del Rey
+- Lana Del Rey
 - Portishead
 - Queens of the Stone Age
 - Blondie
