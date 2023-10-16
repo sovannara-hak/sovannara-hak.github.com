@@ -6,7 +6,7 @@ artists:
 - Lacuna Coil
 - This is She
 place: 
-- Théâtre de l'Alhambra
+- Alhambra
 country: France
 city: Paris
 ---
