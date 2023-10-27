@@ -3,7 +3,7 @@ layout: post
 category: concert
 title: Émilie Simon
 artists: 
-- Émilie Simon
+- Emilie Simon
 place: 
 - Cité de la Musique
 country: France
