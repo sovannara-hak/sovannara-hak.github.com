@@ -2,6 +2,7 @@
 layout: post
 category: concert
 title: Cellar Darling + Maer + I Am The Morning
+artists:
 - Cellar Darling
 - Maer
 - I Am The Morning
