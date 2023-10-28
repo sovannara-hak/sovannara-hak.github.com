@@ -1,9 +1,10 @@
 ---
 layout: post
 category: concert
-title: Steel Panther
+title: Steel Panther + Sleekstain
 artists: 
 - Steel Panther
+- Sleekstain
 place: 
 - Bataclan
 country: France
