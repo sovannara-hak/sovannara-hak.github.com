@@ -1,10 +1,10 @@
 ---
 layout: post
 category: concert
-title: Esben and The Witch + Pyrit
+title: Wolvennest + E-l-r
 artists: 
-- Esben and The Witch
-- Pyrit
+- Wolvennest
+- E-l-r
 place: 
 - Petit Bain
 country: France

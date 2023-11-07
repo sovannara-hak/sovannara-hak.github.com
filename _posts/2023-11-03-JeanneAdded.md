@@ -1,12 +1,11 @@
 ---
 layout: post
 category: concert
-title: Esben and The Witch + Pyrit
+title: Jeanne Added
 artists: 
-- Esben and The Witch
-- Pyrit
+- Jeanne Added
 place: 
-- Petit Bain
+- Philharmonie de Paris
 country: France
 city: Paris
 ---
