@@ -13,7 +13,7 @@ permalink: /topplaces/
 {% assign previous = "" %}
 {% assign placenumarray = "" %}
 {% assign placenumcurrent = "" %}
-{% assign nbConcerts = 1000 %}
+{% assign nbConcerts = 10000 %}
 {% for place in placelist %}
   {% if previous != place and previous != "" %}
     {% if placenumarray != "" %}
@@ -21,7 +21,7 @@ permalink: /topplaces/
 	{% else %}
 	  {% assign placenumarray = placenumarray | append: placenumcurrent %}
 	{% endif %}
-    {% assign nbConcerts = 1001 %}
+    {% assign nbConcerts = 10001 %}
   {% else %}
     {% assign nbConcerts = nbConcerts | plus: 1 %}
   {% endif %}
@@ -45,8 +45,9 @@ permalink: /topplaces/
 <li>
 <a name="{{ placedowncase }}"/>
 <a href="/places/#{{placedowncase}}">
-{{ place }} ({{ itarray[0] | minus: 1000 }})
+{{ place }} ({{ itarray[0] | minus: 10000 }})
 </a>
 </li>
 {% endfor %}
 </ul>
+
