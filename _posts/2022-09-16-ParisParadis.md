@@ -1,7 +1,7 @@
 ---
 layout: post
 category: festival
-title: Rock En Seine
+title: Paris Paradis
 startdate: 2022-09-16
 enddate: 2022-09-18
 artists: 
