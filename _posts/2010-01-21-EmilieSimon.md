@@ -1,9 +1,10 @@
 ---
 layout: post
 category: concert
-title: Émilie Simon
+title: Émilie Simon + Marie-Flore
 artists: 
 - Emilie Simon
+- Marie-Flore
 place: 
 - Le Bikini
 country: France
