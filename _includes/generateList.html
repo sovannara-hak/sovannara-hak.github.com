@@ -1,23 +1,23 @@
 <ul>
-{% assign previous = "" %}
-{% assign occurence = 1 %}
-{% for item in {{include.list}} %}
-  {% if item != "" %}
-    {% if previous == "" %}
-      {% assign items = item | split:'|' %}
-      {% assign previous = "" | append:item %}
-    {% else %}
-      {% if items contains item %}
-        {% assign occurence = occurence | plus: 1 %}
-      {% else %}
+{%- assign previous = "" -%}
+{%- assign occurence = 1 -%}
+{%- for item in {{include.list}} -%}
+  {%- if item != "" -%}
+    {%- if previous == "" -%}
+      {%- assign items = item | split:'|' -%}
+      {%- assign previous = "" | append:item -%}
+    {%- else -%}
+      {%- if items contains item -%}
+        {%- assign occurence = occurence | plus: 1 -%}
+      {%- else -%}
       <li><a href="/{{include.root}}#{{ previous | downcase }}">{{ "" | append:previous }}</a> ({{ occurence }})</li>
-        {% assign occurence = 1 %}
-        {% assign previous = "" | append:item %}
-        {% assign items = items | join:'|' | append:'|' | append:previous | split:'|' %}
-      {% endif %}
-    {% endif %}
-  {% endif %}
-{% endfor %}
+        {%- assign occurence = 1 -%}
+        {%- assign previous = "" | append:item -%}
+        {%- assign items = items | join:'|' | append:'|' | append:previous | split:'|' -%}
+      {%- endif -%}
+    {%- endif -%}
+  {%- endif -%}
+{%- endfor -%}
 <li><a href="/{{include.root}}#{{ previous | uri_escape | downcase }}">{{ previous }}</a> ({{ occurence }})</li>
 </ul>
 

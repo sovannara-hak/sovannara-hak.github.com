@@ -15,7 +15,7 @@ permalink: /places/
   {% for it in placelist %}
     {% if it == place %}
       {% assign nbConcerts = nbConcerts | plus: 1 %}
-	{% endif %}
+    {% endif %}
   {% endfor %}
   <a name="{{ place | downcase }}"/>
 ### {{ place }} ({{ nbConcerts }})

@@ -14,6 +14,7 @@
     {% assign item = post.place | join:'|' | append:'|' %}
     {% assign placelist = placelist | append:item %}
 {% endfor %}
+{% assign placelistunsort = placelist | split:'|' %}
 {% assign placelist = placelist | split:'|' | sort %}
 
 {% assign placelistuniq = placelist | uniq %}
