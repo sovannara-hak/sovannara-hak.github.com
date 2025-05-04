@@ -1,10 +1,10 @@
 ---
 layout: post
 category: concert
-title: Marie-Flore + Bleu Minuit
+title: Emilie Simon + Brune
 artists: 
-- Marie-Flore
-- Bleu Minuit
+- Emilie Simon
+- Brune
 place: 
 - Espace Michel Simon
 country: France
