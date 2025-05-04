@@ -10,4 +10,3 @@ place:
 country: France
 city: Rouen
 ---
-

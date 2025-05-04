@@ -9,4 +9,3 @@ place:
 country: France
 city: Paris
 ---
-

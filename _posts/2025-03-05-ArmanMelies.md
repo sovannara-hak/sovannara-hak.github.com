@@ -5,7 +5,7 @@ title: Arman Méliès
 artists: 
 - Arman Méliès
 place: 
-- Balade Sonores
+- Balades Sonores
 country: France
 city: Paris
 ---
